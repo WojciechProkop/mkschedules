@@ -1,0 +1,1080 @@
+Subject Area,Catalog Number,Section,Course Title,Room Number,Start Time,End Time,Day
+ANTH,101,GS01,Introduction to Anthropology,6-152,10:00,10:50,MWF
+ANTH,101,GS02,Introduction to Anthropology,6-156,9:00,9:50,MWF
+ANTH,101,GS03,Introduction to Anthropology,6-152,12:30,1:50,TR
+ANTH,101,GS04,Introduction to Anthropology,5-158,8:00,9:20,TR
+ANTH,101,GS05,Introduction to Anthropology,6-136,2:00,2:50,MWF
+ANTH,101,GS06,Introduction to Anthropology,6-136,8:00,8:50,MWF
+ANTH,101,GS07,Introduction to Anthropology,6-214,9:30,10:50,TR
+ANTH,101,OP01,Introduction to Anthropology,6-152,6:00,8:50,M
+ANTH,101,OP95,Introduction to Anthropology,V-MCO,,,
+ANTH,110,GS01,"Gender, Age and Culture",6-152,11:00,11:50,MWF
+ANTH,110,GS02,"Gender, Age and Culture",5-158,2:00,3:20,TR
+ANTH,110,OP95,"Gender, Age and Culture",V-MCO,,,
+ANTH,150,GS01,Race and Racism in Modern World,6-132,3:30,4:50,TR
+ANTH,150,GS02,Race and Racism in Modern World,6-152,12:00,12:50,MWF
+ANTH,150,GS03,Race and Racism in Modern World,6-152,1:00,1:50,MWF
+ANTH,206,AS01,Introduction to Archaeology,7-327,1:00,1:50,MW
+ANTH,206,X01L,Introduction to Archaeology,7-333,10:00,10:50,R
+ANTH,206,X02L,Introduction to Archaeology,7-333,11:00,11:50,R
+ANTH,206,X03L,Introduction to Archaeology,7-333,12:00,12:50,R
+ANTH,207,AS01,Introduction to Social and Cultural Anthropology,6-256,2:00,2:50,MWF
+ANTH,208,AS01,Introduction to Linguistic Anthropology,7-325,12:00,12:50,MWF
+ANTH,209,AS01,Biological Anthropology,7-277,3:00,3:50,MW
+ANTH,209,X01L,Biological Anthropology,7-333,10:00,10:50,T
+ANTH,209,X02L,Biological Anthropology,7-333,11:00,11:50,T
+ANTH,209,X03L,Biological Anthropology,7-333,12:00,12:50,T
+ANTH,219,OP95,World Prehistory,V-MCO,,,
+ANTH,245,AS01,Ethnography of Mediterranean Peoples,6-348,11:00,11:50,MWF
+ANTH,250,AS01,Introduction to Canadian Indigenous Peoples,6-238,3:30,4:50,TR
+ANTH,262,OP01,Peoples and Cultures of South America,5-329,6:00,8:50,W
+ANTH,318,AS01,Political Anthropology,7-341,8:00,8:50,MWF
+ANTH,340,AS01,Canadian Indigenous Issues,7-122,2:00,3:20,TR
+ANTH,375,AS01,Zooarchaeology,7-333,12:00,12:50,W
+ANTH,375,X01L,Zooarchaeology,7-333,12:00,1:50,F
+ANTH,375,X02L,Zooarchaeology,7-333,2:00,3:50,F
+ANTH,394,AS01,Ethnographic Research Methods,7-122,11:00,11:50,MWF
+ANTH,395,AS01,Archaeological Method Issues,7-233,9:00,9:50,MWF
+ANTH,399,AS01,Ecological Perspectives in Anthropology,6-133,10:00,10:50,MWF
+ANTH,411,AS01,Environmental Archaeology,7-165,8:00,9:20,TR
+ANTH,420,AS01,Culture and Globalization,7-165,11:00,1:50,T
+ANTH,440,AS01,The Anthropology of Colonial Encounters,7-143,2:00,4:50,M
+ANTH,499A,AS01,Honours Thesis I,ED-OC,,,
+ASTR,120,AS01,The Astronomy of the Solar System,6-152,8:00,9:20,TR
+BICM,200,AS01,Introductory Biochemistry,5-309,11:00,12:20,TR
+BICM,320,AS01,Structure and Function of Biomolecules,5-309,8:00,9:20,TR
+BIOL,101,AS01,Current Issues in Human Biology,6-156,10:00,10:50,MWF
+BIOL,101,AS02,Current Issues in Human Biology,6-214,8:00,8:50,MWF
+BIOL,101,AS03,Current Issues in Human Biology,5-158,3:30,4:50,TR
+BIOL,102,AS01,Nutrition and the Body,9-202,11:00,12:20,TR
+BIOL,102,AS02,Nutrition and the Body,6-132,2:00,2:50,MWF
+BIOL,103,AS01,Humans and Their Environment,7-286,12:30,1:50,MW
+BIOL,103,AS02,Humans and Their Environment,11-463,8:00,9:20,TR
+BIOL,107,AS01,Introduction to Cell Biology,7-286,11:00,11:50,MWF
+BIOL,107,AS02,Introduction to Cell Biology,5-158,4:00,4:50,MWF
+BIOL,107,AS03,Introduction to Cell Biology,5-152,11:00,12:20,TR
+BIOL,107,AS04,Introduction to Cell Biology,6-132,3:00,3:50,MWF
+BIOL,107,AS05,Introduction to Cell Biology,6-136,4:00,4:50,MWF
+BIOL,107,X01L,Introduction to Cell Biology,6-168,8:00,10:50,M
+BIOL,107,X02L,Introduction to Cell Biology,6-168,12:00,2:50,M
+BIOL,107,X03L,Introduction to Cell Biology,6-168,5:00,7:50,M
+BIOL,107,X04L,Introduction to Cell Biology,6-168,8:00,10:50,T
+BIOL,107,X05L,Introduction to Cell Biology,6-168,11:00,1:50,T
+BIOL,107,X06L,Introduction to Cell Biology,6-168,2:00,4:50,T
+BIOL,107,X07L,Introduction to Cell Biology,6-168,5:00,7:50,T
+BIOL,107,X08L,Introduction to Cell Biology,6-168,8:00,10:50,W
+BIOL,107,X09L,Introduction to Cell Biology,6-168,12:00,2:50,W
+BIOL,107,X10L,Introduction to Cell Biology,6-168,5:00,7:50,W
+BIOL,107,X11L,Introduction to Cell Biology,6-168,8:00,10:50,R
+BIOL,107,X12L,Introduction to Cell Biology,6-168,11:00,1:50,R
+BIOL,107,X13L,Introduction to Cell Biology,6-168,2:00,4:50,R
+BIOL,107,X14L,Introduction to Cell Biology,6-168,5:00,7:50,R
+BIOL,107,X15L,Introduction to Cell Biology,6-168,8:00,10:50,F
+BIOL,107,X16L,Introduction to Cell Biology,6-168,12:00,2:50,F
+BIOL,107,X17L,Introduction to Cell Biology,6-168,5:00,7:50,F
+BIOL,108,AS01,Organisms in Their Environment,6-212,3:30,4:50,TR
+BIOL,108,AS02,Organisms in Their Environment,5-152,4:00,4:50,MWF
+BIOL,108,AS03,Organisms in Their Environment,6-214,11:00,11:50,MWF
+BIOL,108,AS04,Organisms in Their Environment,6-214,3:30,4:50,TR
+BIOL,108,AS05,Organisms in Their Environment,7-284,3:00,3:50,MWF
+BIOL,108,X01L,Organisms in Their Environment,6-164,8:00,10:50,M
+BIOL,108,X02L,Organisms in Their Environment,6-164,12:00,2:50,M
+BIOL,108,X03L,Organisms in Their Environment,6-164,5:00,7:50,M
+BIOL,108,X04L,Organisms in Their Environment,6-164,8:00,10:50,T
+BIOL,108,X05L,Organisms in Their Environment,6-164,12:30,3:20,T
+BIOL,108,X06L,Organisms in Their Environment,6-164,5:00,7:50,T
+BIOL,108,X07L,Organisms in Their Environment,6-164,8:00,10:50,W
+BIOL,108,X08L,Organisms in Their Environment,6-164,12:00,2:50,W
+BIOL,108,X09L,Organisms in Their Environment,6-164,5:00,7:50,W
+BIOL,108,X10L,Organisms in Their Environment,6-164,8:00,10:50,R
+BIOL,108,X11L,Organisms in Their Environment,6-164,12:30,3:20,R
+BIOL,108,X12L,Organisms in Their Environment,6-164,5:00,7:50,R
+BIOL,108,X13L,Organisms in Their Environment,6-164,8:00,10:50,F
+BIOL,108,X14L,Organisms in Their Environment,6-164,12:00,2:50,F
+BIOL,108,X15L,Organisms in Their Environment,6-164,5:00,7:50,F
+BIOL,201,AS01,Eukaryotic Cellular Biology I,6-212,2:00,2:50,MWF
+BIOL,201,AS02,Eukaryotic Cellular Biology I,6-344,3:00,3:50,MWF
+BIOL,205,AS01,Principles of Molecular Biology,6-344,1:00,1:50,MWF
+BIOL,205,X01L,Principles of Molecular Biology,5-027,8:00,10:50,R
+BIOL,205,X02L,Principles of Molecular Biology,5-027,12:30,3:20,R
+BIOL,207,AS01,Principles of Genetics,5-135,11:00,12:20,TR
+BIOL,207,AS02,Principles of Genetics,5-106,11:00,11:50,MWF
+BIOL,207,AS03,Principles of Genetics,6-344,8:00,8:50,MWF
+BIOL,207,X01L,Principles of Genetics,5-021,8:00,10:50,M
+BIOL,207,X02L,Principles of Genetics,5-021,12:00,2:50,M
+BIOL,207,X03L,Principles of Genetics,5-021,4:00,6:50,M
+BIOL,207,X04L,Principles of Genetics,5-021,8:00,10:50,T
+BIOL,207,X05L,Principles of Genetics,5-021,8:00,10:50,R
+BIOL,207,X06L,Principles of Genetics,5-027,4:30,7:20,R
+BIOL,208,AS01,Principles of Ecology,7-341,11:00,11:50,MWF
+BIOL,208,AS02,Principles of Ecology,6-258,3:00,3:50,MWF
+BIOL,208,AS03,Principles of Ecology,5-309,3:30,4:50,TR
+BIOL,208,X01L,Principles of Ecology,5-027,8:00,10:50,M
+BIOL,208,X02L,Principles of Ecology,5-027,12:00,2:50,M
+BIOL,208,X03L,Principles of Ecology,5-027,8:00,10:50,T
+BIOL,208,X04L,Principles of Ecology,5-027,12:30,3:20,T
+BIOL,208,X05L,Principles of Ecology,5-027,8:00,10:50,W
+BIOL,208,X06L,Principles of Ecology,5-027,12:00,2:50,W
+BIOL,312,AS01,Terrestrial Ecology,5-268,2:00,3:20,TR
+BIOL,312,X01L,Terrestrial Ecology,5-027,8:00,10:50,F
+BIOL,312,X02L,Terrestrial Ecology,5-027,12:00,2:50,F
+BIOL,313,AS01,Animal Developmental Biology,11-428,12:30,1:50,TR
+BIOL,313,X01L,Animal Developmental Biology,5-021,12:00,2:50,W
+BIOL,313,X02L,Animal Developmental Biology,5-021,12:00,2:50,W
+BIOL,315,AS01,History of Biology,7-341,3:30,4:50,TR
+BIOL,315,X01S,History of Biology,6-256,11:00,11:50,M
+BIOL,321,AS01,Mechanisms of Evolution,5-168,3:00,3:50,MWF
+BIOL,367,AS01,Conservation Biology,5-168,4:00,4:50,MWF
+BIOL,371,AS01,Animal Behaviour,7-233,8:00,9:20,TR
+BIOL,371,X01L,Animal Behaviour,6-143,12:00,2:50,W
+BIOL,371,X02L,Animal Behaviour,6-143,12:00,2:50,W
+BIOL,421,AS01,Techniques in Molecular and Cellular Biology,5-021,2:00,4:50,TR
+BIOL,492,AS01,Field Placement,,,,
+BIOL,495,AS01,Special Topics,5-213,11:00,12:20,TR
+BIOL,498,AS01,Advanced Independent Study,,,,
+BIOL,498,AS02,Advanced Independent Study,,,,
+BIOL,498,AS03,Advanced Independent Study,,,,
+BIOL,499A,AS01,Honours Thesis I,,,,
+BOTN,205,AS01,Fundamentals of Plant Biology,11-463,11:00,12:20,TR
+BOTN,205,X01L,Fundamentals of Plant Biology,6-143,12:00,2:50,M
+BOTN,205,X02L,Fundamentals of Plant Biology,6-143,8:00,10:50,M
+CHEM,101,AS01,Introductory University Chemistry I,6-156,2:00,3:50,TR
+CHEM,101,AS02,Introductory University Chemistry I,6-136,12:00,1:50,TR
+CHEM,101,AS03,Introductory University Chemistry I,6-136,10:00,11:50,MW
+CHEM,101,AS04,Introductory University Chemistry I,7-284,4:00,5:50,TR
+CHEM,101,AS05,Introductory University Chemistry I,6-156,2:00,3:50,MW
+CHEM,101,AS06,Introductory University Chemistry I,6-136,12:00,1:50,MW
+CHEM,101,AS07,Introductory University Chemistry I,6-136,8:00,9:50,TR
+CHEM,101,AS08,Introductory University Chemistry I,6-136,10:00,11:50,TR
+CHEM,101,X01L,Introductory University Chemistry I,6-161,11:00,1:50,M
+CHEM,101,X02L,Introductory University Chemistry I,6-161,2:00,4:50,M
+CHEM,101,X03L,Introductory University Chemistry I,6-161,5:00,7:50,M
+CHEM,101,X04L,Introductory University Chemistry I,6-161,8:00,10:50,T
+CHEM,101,X05L,Introductory University Chemistry I,6-161,12:30,3:20,T
+CHEM,101,X06L,Introductory University Chemistry I,6-161,4:30,7:20,T
+CHEM,101,X07L,Introductory University Chemistry I,6-142,4:30,7:20,T
+CHEM,101,X08L,Introductory University Chemistry I,6-161,8:00,10:50,W
+CHEM,101,X09L,Introductory University Chemistry I,6-142,8:00,10:50,W
+CHEM,101,X10L,Introductory University Chemistry I,6-142,12:00,2:50,W
+CHEM,101,X11L,Introductory University Chemistry I,6-161,12:00,2:50,W
+CHEM,101,X12L,Introductory University Chemistry I,6-161,4:00,6:50,W
+CHEM,101,X13L,Introductory University Chemistry I,6-142,4:00,6:50,W
+CHEM,101,X14L,Introductory University Chemistry I,6-161,8:00,10:50,R
+CHEM,101,X15L,Introductory University Chemistry I,6-142,8:00,10:50,R
+CHEM,101,X16L,Introductory University Chemistry I,6-142,12:30,3:20,R
+CHEM,101,X17L,Introductory University Chemistry I,6-161,12:30,3:20,R
+CHEM,101,X18L,Introductory University Chemistry I,6-142,4:30,7:20,R
+CHEM,101,X19L,Introductory University Chemistry I,6-161,4:30,7:20,R
+CHEM,101,X20L,Introductory University Chemistry I,6-142,8:00,10:50,F
+CHEM,101,X21L,Introductory University Chemistry I,6-161,8:00,10:50,F
+CHEM,101,X22L,Introductory University Chemistry I,6-161,12:00,2:50,F
+CHEM,101,X23L,Introductory University Chemistry I,6-142,12:00,2:50,F
+CHEM,101,X24L,Introductory University Chemistry I,6-161,4:00,6:50,F
+CHEM,101,X25L,Introductory University Chemistry I,6-142,4:00,6:50,F
+CHEM,101,X26L,Introductory University Chemistry I,6-161,8:00,10:50,M
+CHEM,101,X27L,Introductory University Chemistry I,6-142,12:30,3:20,T
+CHEM,102,AS01,Introductory University Chemistry II,6-212,10:00,11:50,WF
+CHEM,102,X01L,Introductory University Chemistry II,5-014,8:00,10:50,M
+CHEM,102,X02L,Introductory University Chemistry II,5-014,12:00,2:50,M
+CHEM,102,X03L,Introductory University Chemistry II,5-014,4:00,6:50,M
+CHEM,211,AS01,Analytical Chemistry I,5-329,12:30,1:50,TR
+CHEM,211,X01L,Analytical Chemistry I,5-014,2:30,6:20,T
+CHEM,211,X02L,Analytical Chemistry I,5-014,2:00,5:50,W
+CHEM,242,AS01,Fundamentals of Physical Chemistry,5-141,2:00,3:20,TR
+CHEM,242,X01L,Fundamentals of Physical Chemistry,5-014,8:00,10:50,T
+CHEM,261,AS01,Organic Chemistry I,6-232,3:00,3:50,MWF
+CHEM,261,AS02,Organic Chemistry I,7-385,2:00,3:20,TR
+CHEM,261,AS03,Organic Chemistry I,5-301,11:00,11:50,MWF
+CHEM,261,AS04,Organic Chemistry I,7-138,11:00,12:20,TR
+CHEM,261,X01L,Organic Chemistry I,5-009,8:00,10:50,W
+CHEM,261,X02L,Organic Chemistry I,5-009,12:00,2:50,W
+CHEM,261,X03L,Organic Chemistry I,5-009,4:00,6:50,W
+CHEM,261,X04L,Organic Chemistry I,5-009,8:00,10:50,R
+CHEM,261,X05L,Organic Chemistry I,5-009,12:30,3:20,R
+CHEM,261,X06L,Organic Chemistry I,5-009,4:30,7:20,R
+CHEM,261,X07L,Organic Chemistry I,5-009,8:00,10:50,F
+CHEM,261,X08L,Organic Chemistry I,5-009,12:00,2:50,F
+CHEM,263,AS01,Organic Chemistry II,5-301,4:00,4:50,MWF
+CHEM,263,X01L,Organic Chemistry II,5-009,8:00,10:50,T
+CHEM,263,X02L,Organic Chemistry II,5-009,12:30,3:20,T
+CHEM,333,AS01,Organometallic Chemistry,5-141,8:00,9:20,MW
+CHEM,333,X01L,Organometallic Chemistry,5-009,2:00,4:50,M
+CHEM,353,AS01,Forensic Chemistry,5-301,12:30,1:50,TR
+CHEM,353,X01L,Forensic Chemistry,5-014,2:00,4:50,F
+CHEM,353,X02L,Forensic Chemistry,5-014,8:00,10:50,F
+CHEM,364,AS01,Introduction to Medicinal Chemistry,5-301,10:00,10:50,MWF
+CHEM,372,AS01,Environmental Chemistry,5-301,11:00,12:20,TR
+CHEM,372,X01L,Environmental Chemistry,5-014,8:00,10:50,R
+CHEM,372,X02L,Environmental Chemistry,5-014,2:00,4:50,R
+CHEM,398,AS01,Independent Study,,,,
+CHEM,498,AS01,Advanced Independent Study,,,,
+CHIN,101,CA80,Introductory Chinese I,5-102,2:00,"3:50
+ 2:50","MW
+ F"
+CHIN,201,CA80,Introductory Chinese III,5-207,12:00,"1:50
+ 12:50","MW
+ F"
+CHME,103,BE01,Introductory University Chemistry I for Engineers,6-156,4:00,5:50,TR
+CHME,103,BE02,Introductory University Chemistry I for Engineers,6-156,12:00,1:50,WF
+CHME,103,BE03,Introductory University Chemistry I for Engineers,6-152,2:00,3:50,TR
+CHME,103,X55L,Introductory University Chemistry I for Engineers,6-142,8:00,10:50,M
+CHME,103,X56L,Introductory University Chemistry I for Engineers,6-142,8:00,10:50,M
+CHME,103,X57L,Introductory University Chemistry I for Engineers,6-142,2:00,4:50,M
+CHME,103,X58L,Introductory University Chemistry I for Engineers,6-142,2:00,4:50,M
+CHME,103,X59L,Introductory University Chemistry I for Engineers,6-142,8:00,10:50,T
+CHME,103,X60L,Introductory University Chemistry I for Engineers,6-142,8:00,10:50,T
+CHME,103,X61L,Introductory University Chemistry I for Engineers,6-142,5:00,7:50,M
+CHME,103,X62L,Introductory University Chemistry I for Engineers,6-142,11:00,1:50,M
+CHME,103,X63L,Introductory University Chemistry I for Engineers,6-142,11:00,1:50,M
+CLAS,101,GS01,Approaches to the Ancient Mediterranean World,6-291,1:00,1:50,MWF
+CLAS,101,GS02,Approaches to the Ancient Mediterranean World,6-238,8:00,9:20,TR
+CLAS,101,GS03,Approaches to the Ancient Mediterranean World,7-279,12:30,1:50,TR
+CLAS,102,GS01,Greek and Roman Mythology,6-238,12:00,12:50,MWF
+CLAS,102,GS02,Greek and Roman Mythology,7-341,2:00,3:20,TR
+CLAS,102,GS03,Greek and Roman Mythology,7-227,3:30,4:50,TR
+CLAS,102,GS04,Greek and Roman Mythology,6-153,9:00,9:50,MWF
+CLAS,102,GS05,Greek and Roman Mythology,7-233,4:00,4:50,MWF
+CLAS,102,OP01,Greek and Roman Mythology,6-242,6:00,8:50,W
+CLAS,210,AS01,Survey of Greek and Roman History,7-278,8:00,8:50,MWF
+CLAS,221,AS01,Literature of Greece and Rome,7-325,8:00,9:20,TR
+CLAS,252,AS01,Ancient Art and Architecture,7-278,11:00,11:50,MWF
+CLAS,270,GS01,Greek Civilization,7-278,10:00,10:50,MWF
+CLAS,305,AS01,Comparative Mythology,7-138,9:00,9:50,MWF
+CLAS,356,AS01,Myth in Classical Art,11-428,2:00,3:20,TR
+CLAS,398,AS01,Independent Study,,,,
+CMPT,101,AS01,Introduction to Computing I,5-152,8:00,9:20,TR
+CMPT,101,AS02,Introduction to Computing I,5-158,2:00,2:50,MWF
+CMPT,101,AS03,Introduction to Computing I,5-158,3:00,3:50,MWF
+CMPT,101,OP60,Introduction to Computing I,9-218,6:00,8:50,T
+CMPT,101,X01L,Introduction to Computing I,5-235,8:00,10:50,F
+CMPT,101,X02L,Introduction to Computing I,5-235,2:00,4:50,R
+CMPT,101,X03L,Introduction to Computing I,5-235,8:00,10:50,M
+CMPT,101,X04L,Introduction to Computing I,5-235,11:00,1:50,R
+CMPT,101,X05L,Introduction to Computing I,5-235,11:00,1:50,M
+CMPT,101,X06L,Introduction to Computing I,5-235,11:00,1:50,T
+CMPT,101,X07L,Introduction to Computing I,5-235,11:00,1:50,W
+CMPT,101,X08L,Introduction to Computing I,5-235,8:00,10:50,W
+CMPT,101,X09L,Introduction to Computing I,5-235,2:00,4:50,T
+CMPT,101,X60L,Introduction to Computing I,5-235,6:00,8:50,M
+CMPT,103,AS01,Introduction to Computing II,5-158,12:30,1:50,TR
+CMPT,103,X01L,Introduction to Computing II,5-216,11:00,1:50,M
+CMPT,103,X02L,Introduction to Computing II,5-216,2:00,4:50,F
+CMPT,103,X03L,Introduction to Computing II,5-216,8:00,10:50,M
+CMPT,104,SB80,Fluency with Information Technology,"7-325
+ 5-264",8:00,9:20,MW
+CMPT,200,AS01,Data Structures and Algorithms,5-329,3:30,4:50,TR
+CMPT,200,AS02,Data Structures and Algorithms,6-133,8:00,9:20,TR
+CMPT,200,X01L,Data Structures and Algorithms,5-216,8:00,10:50,F
+CMPT,200,X02L,Data Structures and Algorithms,5-216,2:00,4:50,W
+CMPT,200,X03L,Data Structures and Algorithms,5-216,8:00,10:50,W
+CMPT,200,X04L,Data Structures and Algorithms,5-216,2:00,4:50,M
+CMPT,201,AS01,Practical Programming Methodology,6-153,2:00,2:50,MWF
+CMPT,201,X01L,Practical Programming Methodology,5-216,11:00,1:50,R
+CMPT,201,X02L,Practical Programming Methodology,5-216,11:00,1:50,T
+CMPT,204,AS01,Algorithms I,6-348,12:00,1:50,M
+CMPT,204,X01S,Algorithms I,6-348,12:00,1:50,W
+CMPT,220,AS01,"Unix, Scripting, and Other Tools",5-322,10:00,10:50,MWF
+CMPT,220,X01L,"Unix, Scripting, and Other Tools",5-216,2:00,3:50,R
+CMPT,220,X02L,"Unix, Scripting, and Other Tools",5-216,2:00,3:50,T
+CMPT,250,AS01,Introduction to Human Computer Interaction,5-301,9:30,10:50,TR
+CMPT,250,X01L,Introduction to Human Computer Interaction,5-216,12:00,1:50,F
+CMPT,250,X02L,Introduction to Human Computer Interaction,5-216,12:00,1:50,W
+CMPT,272,AS01,Formal Systems and Logic in Computing Science,5-301,8:00,9:20,TR
+CMPT,272,X01L,Formal Systems and Logic in Computing Science,5-141,2:00,3:50,M
+CMPT,272,X01S,Formal Systems and Logic in Computing Science,5-301,2:00,2:50,F
+CMPT,272,X02L,Formal Systems and Logic in Computing Science,5-141,12:00,1:50,M
+CMPT,305,AS01,Introduction to Object-Oriented Programming,5-329,9:00,9:50,MWF
+CMPT,305,X01L,Introduction to Object-Oriented Programming,5-231,2:00,4:50,T
+CMPT,305,X02L,Introduction to Object-Oriented Programming,5-231,11:00,1:50,R
+CMPT,311,AS01,Phenomenon of Technology,5-207,11:00,12:20,TR
+CMPT,330,AS01,Introduction to Real Time Gaming,5-231,11:00,11:50,MWF
+CMPT,330,X01L,Introduction to Real Time Gaming,5-231,3:00,4:50,M
+CMPT,330,X02L,Introduction to Real Time Gaming,5-231,3:00,4:50,M
+CMPT,360,AS01,Introduction to Operating Systems,5-212,10:00,10:50,MWF
+CMPT,360,AS02,Introduction to Operating Systems,5-206,11:00,12:20,TR
+CMPT,360,X01L,Introduction to Operating Systems,5-212,2:00,4:50,R
+CMPT,360,X02L,Introduction to Operating Systems,5-212,2:00,4:50,T
+CMPT,361,AS01,Introduction to Networks,5-141,9:30,10:50,TR
+CMPT,361,X01L,Introduction to Networks,5-212,2:00,4:50,M
+CMPT,391,AS01,Database Management Systems,5-206,10:00,10:50,MWF
+CMPT,391,X01L,Database Management Systems,5-231,2:00,4:50,R
+CMPT,391,X02L,Database Management Systems,5-231,2:00,4:50,R
+CMPT,395,AS01,Introduction to Software Engineering,5-213,8:00,8:50,MWF
+CMPT,395,X01L,Introduction to Software Engineering,5-212,11:00,1:50,T
+CMPT,395,X02L,Introduction to Software Engineering,5-212,11:00,1:50,T
+CMPT,399,AS01,Topics in Computer Science,5-212,9:30,10:50,TR
+CMPT,399,X01L,Topics in Computer Science,5-212,2:00,4:50,W
+CMPT,399,X02L,Topics in Computer Science,5-212,2:00,4:50,W
+CMPT,464,AS01,Wireless Net and Embedded Systems,5-212,11:00,12:20,WF
+CMPT,464,X01L,Wireless Net and Embedded Systems,5-212,11:00,1:50,M
+CMPT,496,AS01,Final Project,,,,
+COMP,102,AS02,World Literature to the 17th Century,7-139,3:30,4:50,TR
+COMP,102,AS03,World Literature to the 17th Century,5-259,2:00,2:50,MWF
+COMP,102,AS04,World Literature to the 17th Century,9-211,11:00,11:50,MWF
+COMP,102,AS05,World Literature to the 17th Century,5-259,3:00,3:50,MWF
+COMP,102,OP01,World Literature to the 17th Century,5-242,6:00,8:50,M
+COMP,103,AS01,World Literature from the 17th Century to the Present,8-218,2:00,3:20,TR
+CRWR,295,AS01,Introduction to Creative Writing,7-279,8:00,9:20,TR
+CRWR,295,AS02,Introduction to Creative Writing,5-234,12:30,1:50,TR
+CRWR,295,AS03,Introduction to Creative Writing,5-322,2:00,3:20,TR
+CRWR,394,AS01,Writing Character,7-184,3:30,4:50,TR
+CRWR,395,AS01,Writing Poetry,7-325,12:30,1:50,TR
+EASC,101,AS01,Introduction to Physical Science,6-156,12:30,1:50,TR
+EASC,101,AS02,Introduction to Physical Science,6-214,2:00,3:20,TR
+EASC,101,AS03,Introduction to Physical Science,6-132,4:00,4:50,MWF
+EASC,101,X01L,Introduction to Physical Science,5-024,8:00,10:50,M
+EASC,101,X02L,Introduction to Physical Science,5-024,12:00,2:50,M
+EASC,101,X03L,Introduction to Physical Science,5-024,8:00,10:50,T
+EASC,101,X04L,Introduction to Physical Science,6-261,8:00,10:50,W
+EASC,101,X05L,Introduction to Physical Science,6-261,12:00,2:50,W
+EASC,101,X06L,Introduction to Physical Science,5-024,8:00,10:50,R
+EASC,101,X07L,Introduction to Physical Science,5-024,4:30,7:20,R
+EASC,101,X08L,Introduction to Physical Science,6-261,8:00,10:50,F
+EASC,101,X09L,Introduction to Physical Science,6-261,12:00,2:50,F
+EASC,219,AS01,Mineralogy,6-232,12:30,1:50,TR
+EASC,219,X01L,Mineralogy,5-024,8:00,10:50,F
+EASC,221,AS01,Introduction to Geographic Information Systems,5-024,3:00,3:50,MWF
+EASC,221,X01L,Introduction to Geographic Information Systems,5-024,12:00,2:50,W
+EASC,225,AS01,Introduction to Geomorphology,6-133,2:00,3:20,TR
+EASC,225,X01L,Introduction to Geomorphology,5-024,8:00,10:50,W
+EASC,230,AS01,Invertebrate Paleontology,5-329,9:30,10:50,TR
+EASC,230,X01L,Invertebrate Paleontology,5-024,12:00,2:50,F
+EASC,373,AS01,Anthropogenic Climate Change,7-184,11:00,11:50,MWF
+EASC,406,AS01,Planetary Materials,5-141,11:00,12:20,TR
+EASC,495,AS01,Special Topics,5-213,3:30,6:20,R
+EASC,498,AS01,Advanced Independent Study,,,,
+EASC,498,AS02,Advanced Independent Study,,,,
+ECON,101,CA80,Introduction to Microeconomics,6-214,12:00,12:50,MWF
+ECON,101,GS01,Introduction to Microeconomics,6-136,3:00,3:50,MWF
+ECON,101,GS02,Introduction to Microeconomics,6-214,11:00,12:20,TR
+ECON,101,GS03,Introduction to Microeconomics,6-152,2:00,2:50,MWF
+ECON,101,GS04,Introduction to Microeconomics,6-156,4:00,4:50,MWF
+ECON,101,GS05,Introduction to Microeconomics,6-214,10:00,10:50,MWF
+ECON,101,GS06,Introduction to Microeconomics,6-212,9:30,10:50,TR
+ECON,101,GS07,Introduction to Microeconomics,6-212,8:00,9:20,TR
+ECON,101,GS09,Introduction to Microeconomics,6-212,12:30,1:50,TR
+ECON,101,GS10,Introduction to Microeconomics,6-152,9:00,9:50,MWF
+ECON,101,GS70,Introduction to Microeconomics,6-214,9:00,9:50,MWF
+ECON,101,GS71,Introduction to Microeconomics,6-132,9:30,10:50,TR
+ECON,101,OP01,Introduction to Microeconomics,6-136,6:00,8:50,W
+ECON,101,OP02,Introduction to Microeconomics,6-152,6:00,8:50,T
+ECON,101,OP95,Introduction to Microeconomics,V-MCO,,,
+ECON,102,GS01,Introduction to Macroeconomics,6-212,12:00,12:50,MWF
+ECON,102,GS02,Introduction to Macroeconomics,9-201,8:00,9:20,TR
+ECON,102,GS03,Introduction to Macroeconomics,6-212,2:00,3:20,TR
+ECON,102,GS04,Introduction to Macroeconomics,6-212,8:00,8:50,MWF
+ECON,102,GS05,Introduction to Macroeconomics,6-212,11:00,12:20,TR
+ECON,102,OP01,Introduction to Macroeconomics,6-136,6:00,8:50,M
+ECON,102,OP95,Introduction to Macroeconomics,V-MCO,,,
+ECON,281,AS01,Intermediate Microeconomics,7-265,5:00,5:50,MWF
+ECON,281,AS02,Intermediate Microeconomics,7-279,11:00,12:20,TR
+ECON,282,AS01,Intermediate Macroeconomics,7-184,9:00,9:50,MWF
+ECON,290,AS01,Economics at Work: Reasoning and Writing in Economics,7-279,9:30,10:50,TR
+ECON,299,AS01,Quantitative Methods in Economics,6-133,3:30,4:50,TR
+ECON,319,AS01,Contemporary Canadian Economic Issues,7-367J,12:30,1:50,MW
+ECON,323,AS01,International Economics,7-122,10:00,10:50,MWF
+ECON,341,AS01,Money and Banking,7-122,12:30,1:50,TR
+ECON,353,AS01,Taxation Policy and Structure,7-325,11:00,11:50,MWF
+ECON,357,AS01,Topics in Applied Economics,6-133,2:00,3:20,WF
+ECON,366,AS01,Energy Economics,7-139,2:00,3:20,TR
+ECON,384,AS01,Microeconomic Theory,7-184,3:30,4:50,WF
+ECON,389,AS01,Introduction to Mathematical Economics,7-126,8:00,8:50,MWF
+ECON,467,AS01,Environmental and Natural Resource Policy,7-367J,11:00,12:20,TR
+EDUC,100,AS01,Contexts of Education,7-277,9:30,10:50,TR
+EDUC,100,AS02,Contexts of Education,7-385,8:00,9:20,TR
+CMPT,496,AS02,Final Project,,,,
+CMPT,498,AS01,Advanced Independent Study,,,,
+EDUC,210,AS01,Introduction to Educational Technology,9-102,8:00,9:20,TR
+EDUC,210,X01L,Introduction to Educational Technology,5-261,11:00,1:50,T
+EDUC,210,X02L,Introduction to Educational Technology,5-261,11:00,1:50,M
+EDUC,210,X03L,Introduction to Educational Technology,5-261,8:00,10:50,M
+ENGG,100,BE01,Orientation to the Engineering Profession I,9-323,11:00,11:50,F
+ENGG,130,BE01,Engineering Mechanics - Statics,6-132,11:00,12:20,TR
+ENGG,130,BE02,Engineering Mechanics - Statics,6-156,8:00,9:20,TR
+ENGG,130,BE03,Engineering Mechanics - Statics,9-323,10:00,10:50,MWF
+ENGG,130,X55L,Engineering Mechanics - Statics,5-207,8:00,9:50,F
+ENGG,130,X56L,Engineering Mechanics - Statics,5-137,4:00,5:50,W
+ENGG,130,X57L,Engineering Mechanics - Statics,5-251,2:00,3:50,F
+ENGG,130,X58L,Engineering Mechanics - Statics,5-102,10:00,11:50,M
+ENGG,130,X59L,Engineering Mechanics - Statics,5-135,12:00,1:50,M
+ENGG,130,X60L,Engineering Mechanics - Statics,5-207,2:00,3:50,F
+ENGG,130,X61L,Engineering Mechanics - Statics,5-207,8:00,9:50,W
+ENGL,102,AS01,Analysis and Argument,5-164,2:00,2:50,MWF
+ENGL,102,AS02,Analysis and Argument,8-207,9:30,10:50,TR
+ENGL,102,AS03,Analysis and Argument,7-187,11:00,12:20,TR
+ENGL,102,AS04,Analysis and Argument,5-317,11:00,11:50,MWF
+ENGL,102,AS05,Analysis and Argument,5-251,9:00,9:50,MWF
+ENGL,102,AS06,Analysis and Argument,6-238,12:30,1:50,TR
+ENGL,102,AS07,Analysis and Argument,5-205,8:00,8:50,MWF
+ENGL,102,AS08,Analysis and Argument,5-268,4:00,4:50,MWF
+ENGL,102,AS09,Analysis and Argument,6-242,3:30,4:50,TR
+ENGL,102,AS10,Analysis and Argument,6-242,2:00,3:20,TR
+ENGL,102,AS11,Analysis and Argument,5-110,12:00,12:50,MWF
+ENGL,102,AS12,Analysis and Argument,6-242,10:00,10:50,MWF
+ENGL,102,AS13,Analysis and Argument,5-242,4:00,4:50,MWF
+ENGL,102,AS14,Analysis and Argument,5-242,3:00,3:50,MWF
+ENGL,102,AS15,Analysis and Argument,5-175,8:00,8:50,MWF
+ENGL,102,AS16,Analysis and Argument,8-207,8:00,9:20,TR
+ENGL,102,AS17,Analysis and Argument,7-325,10:00,10:50,MWF
+ENGL,102,AS18,Analysis and Argument,5-168,1:00,1:50,MWF
+ENGL,102,AS19,Analysis and Argument,5-215,8:00,9:20,TR
+ENGL,102,AS20,Analysis and Argument,8-203,9:30,10:50,TR
+ENGL,102,AS21,Analysis and Argument,5-325,4:00,4:50,MWF
+ENGL,102,AS22,Analysis and Argument,6-252,3:30,4:50,TR
+ENGL,102,AS23,Analysis and Argument,5-325,3:00,3:50,MWF
+ENGL,102,AS24,Analysis and Argument,5-110,2:00,2:50,MWF
+ENGL,102,AS25,Analysis and Argument,5-168,12:00,12:50,MWF
+ENGL,102,AS26,Analysis and Argument,5-137,11:00,11:50,MWF
+ENGL,102,AS27,Analysis and Argument,5-205,9:00,9:50,MWF
+ENGL,102,AS28,Analysis and Argument,5-106,8:00,8:50,MWF
+ENGL,102,AS29,Analysis and Argument,5-253A,10:00,10:50,MWF
+ENGL,102,AS30,Analysis and Argument,5-164,4:00,4:50,MWF
+ENGL,102,AS31,Analysis and Argument,5-251,11:00,11:50,MWF
+ENGL,102,AS32,Analysis and Argument,5-175,9:00,9:50,MWF
+ENGL,102,AS33,Analysis and Argument,7-122,11:00,12:20,TR
+ENGL,102,AS34,Analysis and Argument,6-348,12:30,1:50,TR
+ENGL,102,AS35,Analysis and Argument,6-153,2:00,3:20,TR
+ENGL,102,AS36,Analysis and Argument,5-317,1:00,1:50,MWF
+ENGL,102,AS37,Analysis and Argument,5-168,2:00,2:50,MWF
+ENGL,102,AS38,Analysis and Argument,5-164,3:00,3:50,MWF
+ENGL,102,AS39,Analysis and Argument,5-259,8:00,9:20,TR
+ENGL,102,AS40,Analysis and Argument,5-317,12:00,12:50,MWF
+ENGL,102,AS41,Analysis and Argument,7-277,11:00,11:50,MWF
+ENGL,102,AS42,Analysis and Argument,7-233,12:30,1:50,TR
+ENGL,102,AS43,Analysis and Argument,7-341,11:00,12:20,TR
+ENGL,102,AS44,Analysis and Argument,7-385,10:00,10:50,MWF
+ENGL,102,AS45,Analysis and Argument,7-278,9:00,9:50,MWF
+ENGL,102,AS46,Analysis and Argument,7-385,8:00,8:50,MWF
+ENGL,102,AS47,Analysis and Argument,5-106,3:30,4:50,TR
+ENGL,102,AS48,Analysis and Argument,8-203,5:00,6:20,WF
+ENGL,102,AS49,Analysis and Argument,8-203,4:00,4:50,MWF
+ENGL,102,AS50,Analysis and Argument,5-164,9:30,10:50,TR
+ENGL,102,AS51,Analysis and Argument,5-175,8:00,9:20,TR
+ENGL,102,AS60,Analysis and Argument,11-461,8:00,9:20,TR
+ENGL,102,AS61,Analysis and Argument,11-461,2:00,3:20,TR
+ENGL,102,AS62,Analysis and Argument,11-452,8:00,9:20,TR
+ENGL,102,AS63,Analysis and Argument,11-428,8:00,9:20,TR
+ENGL,102,AS64,Analysis and Argument,7-233,9:30,10:50,TR
+ENGL,102,AS65,Analysis and Argument,11-452,9:30,10:50,TR
+ENGL,102,AS66,Analysis and Argument,11-463,9:30,10:50,TR
+ENGL,102,AS70,Analysis and Argument,7-126,2:00,3:20,TR
+ENGL,102,AS71,Analysis and Argument,11-463,11:00,12:20,MW
+ENGL,102,AS72,Analysis and Argument,11-463,9:30,10:50,MW
+ENGL,102,AS73,Analysis and Argument,5-175,2:00,4:50,F
+ENGL,102,AS74,Analysis and Argument,6-242,2:00,4:50,M
+ENGL,102,AS75,Analysis and Argument,7-279,8:00,10:50,W
+ENGL,102,AS76,Analysis and Argument,5-259,8:00,8:50,MWF
+ENGL,102,AS77,Analysis and Argument,5-175,2:00,3:20,TR
+ENGL,102,AS78,Analysis and Argument,5-322,3:00,3:50,MWF
+ENGL,102,AS79,Analysis and Argument,5-110,9:30,10:50,TR
+ENGL,102,OP01,Analysis and Argument,5-110,6:00,8:50,W
+ENGL,102,OP02,Analysis and Argument,7-146,6:00,8:50,R
+ENGL,102,OP03,Analysis and Argument,5-317,6:00,8:50,M
+ENGL,102,OP04,Analysis and Argument,5-168,6:00,8:50,W
+ENGL,102,OP05,Analysis and Argument,5-168,6:00,8:50,M
+ENGL,102,OP06,Analysis and Argument,5-102,6:00,8:50,T
+ENGL,102,OP07,Analysis and Argument,5-102,9:00,11:50,Sat
+ENGL,102,OP08,Analysis and Argument,5-102,12:30,3:20,Sun
+ENGL,102,OP95,Analysis and Argument,V-MCO,,,
+ENGL,102,OP96,Analysis and Argument,V-MCO,,,
+ENGL,103,AS01,Introduction to Literature,7-277,10:00,10:50,MWF
+ENGL,103,AS02,Introduction to Literature,7-277,9:00,9:50,MWF
+ENGL,103,AS03,Introduction to Literature,7-265,3:30,4:50,TR
+ENGL,103,AS04,Introduction to Literature,7-277,8:00,8:50,MWF
+ENGL,103,AS05,Introduction to Literature,8-203,3:00,3:50,MWF
+ENGL,103,AS06,Introduction to Literature,7-184,2:00,3:20,TR
+ENGL,103,AS07,Introduction to Literature,7-325,11:00,12:20,TR
+ENGL,103,AS08,Introduction to Literature,7-126,12:30,1:50,TR
+ENGL,103,AS09,Introduction to Literature,7-122,4:00,4:50,MWF
+ENGL,103,OP01,Introduction to Literature,5-251,6:00,8:50,T
+ENGL,103,OP95,Introduction to Literature,V-MCO,,,
+ENGL,108,CC80,Introduction to Language and Literature,5-317,9:30,10:50,TR
+ENGL,108,CC81,Introduction to Language and Literature,5-102,8:00,9:20,TR
+ENGL,108,CC95,Introduction to Language and Literature,V-MCO,,,
+ENGL,111,AC01,Communications,5-175,2:00,4:50,W
+ENGL,111,CF01,Communications,8-203,11:00,12:20,TR
+ENGL,111,CS01,Communications,11-461,9:30,10:50,MW
+ENGL,111,CY01,Communications,7-233,11:00,1:50,F
+ENGL,111,EA01,Communications,8-218,12:30,1:50,TR
+ENGL,111,EA02,Communications,6-256,8:00,9:20,TR
+ENGL,111,EC80,Communications,5-161,2:00,3:20,MW
+ENGL,111,EL01,Communications,7-146,11:00,1:50,TR
+ENGL,111,EL02,Communications,11-457,11:00,1:50,TR
+ENGL,111,EV01,Communications,5-161,12:30,1:50,MW
+ENGL,111,HS95,Communications,V-MCO,,,
+ENGL,111,ID01,Communications,5-161,9:30,10:50,TR
+ENGL,111,MT80,Communications,5-305,2:00,4:50,W
+ENGL,111,OP01,Communications,9-315,6:00,8:50,W
+ENGL,111,OP95,Communications,V-MCO,,,
+ENGL,111,PI01,Communications,6-344,9:30,10:50,TR
+ENGL,111,PI02,Communications,6-242,8:00,9:20,TR
+ENGL,111,PS01,Communications,5-110,3:30,4:50,TR
+ENGL,111,SB01,Communications,5-175,8:00,9:20,TR
+ENGL,111,SB02,Communications,6-242,8:00,9:20,MW
+ENGL,111,SB03,Communications,5-205,2:00,3:20,TR
+ENGL,111,SB04,Communications,5-102,6:00,8:50,R
+ENGL,111,SB05,Communications,5-251,3:30,4:50,TR
+ENGL,199,BE01,Writing for Engineers,5-102,4:00,4:50,MWF
+ENGL,199,BE02,Writing for Engineers,5-102,1:00,1:50,MWF
+ENGL,199,BE03,Writing for Engineers,5-168,12:30,1:50,TR
+ENGL,199,BE04,Writing for Engineers,5-168,11:00,12:20,TR
+ENGL,199,BE05,Writing for Engineers,5-102,12:30,1:50,TR
+ENGL,199,BE06,Writing for Engineers,5-102,11:00,12:20,TR
+ENGL,205,AS01,Rhetoric and Textual Analysis,7-277,12:00,12:50,MWF
+ENGL,211,OP95,Business Communication,V-MCO,,,
+ENGL,211,SB01,Business Communication,"6-345
+ 5-268",3:30,4:50,"T
+ R"
+ENGL,218,AS01,Reading Gender,7-385,11:00,11:50,MWF
+ENGL,243,AS01,Genesis of English Literary Forms: Old English to late Renaissance,5-259,11:00,12:20,TR
+ENGL,282,AS01,Introduction to the Short Story,7-385,9:00,9:50,MWF
+ENGL,282,OP95,Introduction to the Short Story,V-MCO,,,
+ENGL,284,OP01,Introduction to Drama,5-204,6:00,8:50,M
+ENGL,285,AS01,Introduction to Poetry,5-110,1:00,1:50,MWF
+ENGL,297,AS01,Academic Essay Writing,5-268,12:30,1:50,TR
+ENGL,336,AS01,Studies in Shakespeare,6-291,11:00,12:20,TR
+ENGL,341,AS01,Augustan Literature,5-207,2:00,3:20,TR
+ENGL,350,AS01,Topics in Romantic Literature,7-341,12:00,12:50,MWF
+ENGL,352,AS01,Early Victorian Literature,6-242,11:00,11:50,MWF
+ENGL,376,AS01,Contemporary Canadian Literature,5-175,1:00,1:50,MWF
+ENGL,389,AS01,Topics in Children's Literature,7-139,9:30,10:50,TR
+ENGL,391,AS01,Topics in Literary Theory,6-344,2:00,2:50,MWF
+ENGL,401,AS01,Studies in Genres,5-141,3:00,5:50,W
+ENGL,401,AS02,Studies in Genres,5-141,3:30,6:20,R
+ENGL,402,AS01,Studies in Authors,5-141,3:30,6:20,T
+ENGL,498,AS01,Advanced Independent Study,,,,
+ENGL,498,AS02,Advanced Independent Study,,,,
+FREN,111,AS01,Introductory French I,"7-231
+ 7-265","8:00
+ 8:00","8:50
+ 9:20","MW
+ TR"
+FREN,111,AS02,Introductory French I,7-265,"10:00
+ 9:30","10:50
+ 10:50","MW
+ TR"
+FREN,111,AS03,Introductory French I,"7-231
+ 7-227
+ 7-227",11:00,"11:50
+ 12:20
+ 11:50","M
+ TR
+ F"
+FREN,111,AS04,Introductory French I,7-231,"12:00
+ 12:30","12:50
+ 1:50","MF
+ TR"
+FREN,111,AS05,Introductory French I,7-265,3:00,"4:50
+ 3:50","MW
+ F"
+FREN,111,OP01,Introductory French I,7-278,6:00,8:20,MW
+FREN,112,AS01,Introductory French II,7-231,1:00,"2:50
+ 1:50","MW
+ F"
+FREN,211,AS01,Intermediate French I,7-227,9:00,"9:50
+ 10:50","M
+ WF"
+FREN,211,AS02,Intermediate French I,7-227,"11:00
+ 12:00",12:50,"MW
+ F"
+FREN,297,AS01,Advanced French I,7-231,"10:00
+ 9:00",10:50,"MF
+ W"
+FREN,297,AS02,Advanced French I,7-227,"3:00
+ 2:00","3:50
+ 3:20","M
+ TR"
+FREN,297,X01L,Advanced French I,V-MCO,,,
+FREN,297,X02L,Advanced French I,V-MCO,,,
+FREN,351,AS01,French Foundational Fiction,7-265,12:30,1:50,TR
+GEND,219,AS01,Feminist Theories and Foundations,6-348,3:30,4:50,TR
+GEND,219,AS02,Feminist Theories and Foundations,6-232,1:00,1:50,MWF
+GENE,369,AS01,Genetic Analysis of Bacteria,6-153,11:00,12:20,TR
+GENE,369,X01S,Genetic Analysis of Bacteria,5-213,10:00,10:50,M
+GENE,369,X02S,Genetic Analysis of Bacteria,5-213,11:00,11:50,M
+GENE,370,AS01,Genetic Analysis of Eukaryotes,5-309,9:30,10:50,TR
+GENE,370,X01S,Genetic Analysis of Eukaryotes,5-141,10:00,10:50,W
+GENE,370,X02S,Genetic Analysis of Eukaryotes,5-141,11:00,11:50,W
+GENE,404,AS01,Investigations into Gene Regulation,5-213,9:00,9:50,MWF
+GENE,404,X01S,Investigations into Gene Regulation,5-206,12:00,12:50,M
+GERM,111,AS01,Introductory German I,"7-231
+ 7-227","9:00
+ 9:30","9:50
+ 10:50","MF
+ TR"
+GERM,111,AS02,Introductory German I,7-227,2:00,"2:50
+ 3:50","M
+ WF"
+GERM,211,AS01,Intermediate German I,7-227,8:00,"8:50
+ 9:20","MW
+ TR"
+HIST,100,GS01,Introduction to History,6-238,8:00,8:50,MWF
+HIST,100,GS02,Introduction to History,7-126,11:00,12:20,TR
+HIST,100,GS03,Introduction to History,7-327,9:00,9:50,MWF
+HIST,101,GS01,Foundations of the Modern World before c.1500 C.E.,7-122,8:00,9:20,TR
+HIST,101,GS02,Foundations of the Modern World before c.1500 C.E.,7-327,11:00,11:50,MWF
+HIST,101,GS03,Foundations of the Modern World before c.1500 C.E.,7-327,10:00,10:50,MWF
+HIST,102,GS01,Foundations of the Modern World from 1500 C.E. to the Present,6-232,4:00,4:50,MWF
+HIST,102,GS02,Foundations of the Modern World from 1500 C.E. to the Present,6-242,9:30,10:50,TR
+HIST,102,OP01,Foundations of the Modern World from 1500 C.E. to the Present,5-242,6:00,8:50,R
+HIST,204,AS01,"Judaism, Christianity, Islam",7-341,9:00,9:50,MWF
+HIST,209,OP01,Early Modern European History,7-126,6:00,8:50,T
+HIST,210,AS01,Modern European History: 1789 - Present,5-161,11:00,12:20,TR
+HIST,210,AS02,Modern European History: 1789 - Present,7-126,9:30,10:50,TR
+HIST,251,AS01,American History Since 1865,6-238,2:00,3:20,TR
+HIST,260,GS01,History of Canada to 1867,6-256,8:00,8:50,MWF
+HIST,260,GS02,History of Canada to 1867,6-344,12:30,1:50,TR
+HIST,261,GS01,History of Canada Since 1867,6-258,4:00,4:50,MWF
+HIST,261,GS02,History of Canada Since 1867,7-341,1:00,1:50,MWF
+HIST,281,AS01,Asia Since A.D. 1500,6-344,12:00,12:50,MWF
+HIST,301,AS01,Topics in World History,7-126,8:00,9:20,TR
+HIST,338,AS01,Britain as a World Power,8-218,11:00,12:20,TR
+HIST,361,AS01,Canadian Political History,7-122,2:00,2:50,MWF
+HIST,362,AS01,History of Alberta,7-122,1:00,1:50,MWF
+HIST,476,AS01,Topics in Ancient and Medieval History,7-355,3:30,6:20,T
+HIST,490,AS01,Topcis in Social History,7-355,3:00,5:50,M
+HIST,498,AS01,Advanced Independent Study,,,,
+HUMN,101,GS01,Humanism,11-428,3:30,4:50,TR
+HUMN,101,GS02,Humanism,6-348,9:30,10:50,TR
+HUMN,201,AS01,Human Relationships,7-341,8:00,9:20,TR
+JAPN,101,CA80,Introductory Japanese I,7-327,2:00,"3:50
+ 2:50","MW
+ F"
+JAPN,101,CC80,Introductory Japanese I,5-322,"8:00
+ 9:00","9:50
+ 9:50","MW
+ F"
+JAPN,101,OP01,Introductory Japanese I,7-265,6:00,8:20,TR
+JAPN,201,CA80,Introductory Japanese III,5-204,12:00,"1:50
+ 12:50","MW
+ F"
+LATN,101,AS01,Introductory Latin I,7-327,12:00,12:50,MWF
+LATN,101,AS02,Introductory Latin I,7-325,2:00,2:50,MWF
+LATN,101,X01L,Introductory Latin I,V-MCO,,,
+LATN,101,X02L,Introductory Latin I,V-MCO,,,
+LATN,201,AS01,Latin Prose Composition,7-122,9:30,10:50,TR
+LATN,201,X01L,Latin Prose Composition,V-MCO,,,
+LING,100,TA80,Introduction to Human Language,9-315,12:30,1:50,MW
+LING,101,AS01,Introduction to Linguistic Analysis,5-205,11:00,11:50,MWF
+LING,101,AS02,Introduction to Linguistic Analysis,8-207,12:30,1:50,TR
+LING,101,AS03,Introduction to Linguistic Analysis,5-137,12:00,12:50,MWF
+LING,101,AS04,Introduction to Linguistic Analysis,7-325,3:30,4:50,TR
+MATH,99,AS01,Precalculus Mathematics,5-152,3:00,3:50,MWF
+MATH,99,AS02,Precalculus Mathematics,6-132,12:30,1:50,TR
+MATH,99,AS03,Precalculus Mathematics,6-214,8:00,9:20,TR
+MATH,100,BE01,Calculus I,5-152,12:00,12:50,MWF
+MATH,100,BE02,Calculus I,5-152,8:00,8:50,MWF
+MATH,100,BE03,Calculus I,5-152,9:00,9:50,MWF
+MATH,100,X55L,Calculus I,5-102,10:00,10:50,W
+MATH,100,X56L,Calculus I,5-205,5:00,5:50,M
+MATH,100,X57L,Calculus I,5-207,9:00,9:50,M
+MATH,100,X58L,Calculus I,5-204,10:00,10:50,F
+MATH,100,X59L,Calculus I,5-137,4:00,4:50,M
+MATH,100,X60L,Calculus I,5-205,12:00,12:50,F
+MATH,100,X61L,Calculus I,5-204,9:00,9:50,F
+MATH,100,X62L,Calculus I,5-204,2:00,2:50,W
+MATH,100,X63L,Calculus I,5-204,2:00,2:50,F
+MATH,114,AS01,Elementary Calculus I,6-214,2:00,3:50,MW
+MATH,114,AS02,Elementary Calculus I,9-323,8:00,9:50,MW
+MATH,114,AS03,Elementary Calculus I,9-202,10:00,11:50,WF
+MATH,114,AS04,Elementary Calculus I,9-102,2:00,3:50,TR
+MATH,114,AS05,Elementary Calculus I,9-323,12:00,1:50,TR
+MATH,114,AS06,Elementary Calculus I,6-214,4:00,5:50,MW
+MATH,114,AS07,Elementary Calculus I,6-152,4:00,5:50,TR
+MATH,115,AS01,Elementary Calculus II,5-161,11:00,11:50,MWF
+MATH,115,X01L,Elementary Calculus II,5-102,12:00,12:50,M
+MATH,115,X02L,Elementary Calculus II,5-207,4:00,4:50,F
+MATH,120,AS01,Basic Linear Algebra I,5-152,2:00,2:50,MWF
+MATH,120,AS02,Basic Linear Algebra I,5-158,9:00,9:50,MWF
+MATH,120,AS03,Basic Linear Algebra I,5-158,10:00,10:50,MWF
+MATH,120,AS04,Basic Linear Algebra I,5-158,1:00,1:50,MWF
+MATH,120,OP60,Basic Linear Algebra I,5-152,5:00,6:20,TR
+MATH,125,AS01,Linear Algebra I,5-152,3:30,4:50,TR
+MATH,160,AS01,Higher Arithmetic,5-207,10:00,10:50,MWF
+MATH,200,AS01,Fundamental Concepts of Math,5-301,9:00,9:50,MWF
+MATH,214,AS01,Intermediate Calculus I,5-158,8:00,8:50,MWF
+MATH,214,X01L,Intermediate Calculus I,5-207,10:00,10:50,R
+MATH,214,X02L,Intermediate Calculus I,5-207,4:00,4:50,W
+MATH,222,AS01,Discrete Mathematics,5-301,3:30,4:50,TR
+MATH,241,AS01,Modern Geometries,5-301,2:00,3:20,TR
+MATH,310,AS01,Real Analysis,6-344,2:00,3:20,TR
+MATH,310,X01S,Real Analysis,7-187,1:00,1:50,W
+MATH,311,AS01,Theory of Functions of a Complex Variable,6-242,12:30,1:50,TR
+MATH,320,AS01,Elementary Number Theory,5-207,11:00,11:50,MWF
+MATH,330,AS01,Ordinary Differential Equations,7-126,4:00,4:50,MWF
+MATH,330,X01L,Ordinary Differential Equations,6-241,2:00,3:50,M
+MATH,350,AS01,Introduction to Graph Theory,7-341,9:30,10:50,TR
+PHIL,100,GS01,Introduction to Philosophy: The Examined Life,6-344,11:00,11:50,MWF
+PHIL,100,GS02,Introduction to Philosophy: The Examined Life,7-126,3:30,4:50,TR
+PHIL,100,GS03,Introduction to Philosophy: The Examined Life,7-341,10:00,10:50,MWF
+PHIL,100,GS04,Introduction to Philosophy: The Examined Life,7-126,9:00,9:50,MWF
+PHIL,100,GS05,Introduction to Philosophy: The Examined Life,7-325,2:00,3:20,TR
+PHIL,100,GS06,Introduction to Philosophy: The Examined Life,7-341,12:30,1:50,TR
+PHIL,100,GS07,Introduction to Philosophy: The Examined Life,7-184,1:00,1:50,MWF
+PHIL,100,OP01,Introduction to Philosophy: The Examined Life,7-184,6:00,8:50,T
+PHIL,100,OP02,Introduction to Philosophy: The Examined Life,7-265,6:00,8:50,M
+PHIL,103,AS01,Asian Philosophies,7-139,2:00,2:50,MWF
+PHIL,125,GS01,Analytical Reasoning,7-233,8:00,8:50,MWF
+PHIL,125,GS02,Analytical Reasoning,7-233,11:00,12:20,TR
+PHIL,125,GS03,Analytical Reasoning,7-327,8:00,9:20,TR
+PHIL,125,GS04,Analytical Reasoning,6-242,12:00,12:50,MWF
+PHIL,200,AS01,Metaphysics,6-348,2:00,3:20,TR
+PHIL,205,AS01,Philosophy of Mind,6-226,11:00,11:50,MWF
+PHIL,210,AS01,Symbolic Logic,7-325,1:00,1:50,MWF
+PHIL,250,AS01,Ethics,7-122,12:00,12:50,MWF
+PHIL,270,AS01,Social and Political Philosophy,6-226,8:00,9:20,TR
+PHIL,280,AS01,Aesthetics,7-184,12:30,1:50,TR
+PHIL,330,AS01,Plato,7-184,11:00,12:20,TR
+PHIL,333,AS01,Philosophy of Sex and Sexuality,7-325,9:30,10:50,TR
+PHIL,386,BN80,Philosophy and Health Care,5-251,12:30,1:50,MW
+PHIL,386,BN95,Philosophy and Health Care,V-MCO,,,
+PHIL,402,AS01,Topics in the History of Philosophy,7-355,3:30,6:20,R
+PHIL,405,AS01,Topics in Contemporary Philosophy,7-355,3:00,5:50,W
+PHIL,498,AS01,Advanced Independent Study,,,,
+PHIL,498,AS02,Advanced Independent Study,,,,
+PHYS,124,AS01,Physics for Life Sciences I,5-158,11:00,11:50,MWF
+PHYS,124,AS02,Physics for Life Sciences I,6-156,11:00,12:20,TR
+PHYS,124,AS03,Physics for Life Sciences I,6-152,3:00,3:50,MWF
+PHYS,124,X01L,Physics for Life Sciences I,6-298,8:00,10:50,M
+PHYS,124,X02L,Physics for Life Sciences I,6-298,8:00,10:50,T
+PHYS,124,X03L,Physics for Life Sciences I,6-298,12:30,3:20,T
+PHYS,124,X04L,Physics for Life Sciences I,6-298,4:30,7:20,T
+PHYS,124,X05L,Physics for Life Sciences I,6-298,8:00,10:50,W
+PHYS,124,X06L,Physics for Life Sciences I,6-298,12:00,2:50,W
+PHYS,124,X07L,Physics for Life Sciences I,6-298,4:00,6:50,W
+PHYS,124,X08L,Physics for Life Sciences I,6-298,4:00,6:50,M
+PHYS,124,X09L,Physics for Life Sciences I,6-298,12:00,2:50,F
+PHYS,126,AS01,Physics for Life Sciences II,9-101,11:00,12:20,TR
+PHYS,126,X01L,Physics for Life Sciences II,6-298,12:00,2:50,M
+PHYS,126,X02L,Physics for Life Sciences II,6-298,8:00,10:50,F
+PHYS,130,BE01,"Wave Motion, Optics and Sound",6-136,2:00,3:20,TR
+PHYS,130,BE02,"Wave Motion, Optics and Sound",6-156,9:30,10:50,TR
+PHYS,130,BE03,"Wave Motion, Optics and Sound",6-156,8:00,8:50,MWF
+PHYS,130,X55L,"Wave Motion, Optics and Sound",6-261,8:00,10:50,M
+PHYS,130,X56L,"Wave Motion, Optics and Sound",6-261,8:00,10:50,M
+PHYS,130,X57L,"Wave Motion, Optics and Sound",6-261,2:00,4:50,M
+PHYS,130,X58L,"Wave Motion, Optics and Sound",6-261,2:00,4:50,M
+PHYS,130,X59L,"Wave Motion, Optics and Sound",6-261,8:00,10:50,T
+PHYS,130,X60L,"Wave Motion, Optics and Sound",6-261,8:00,10:50,T
+PHYS,130,X61L,"Wave Motion, Optics and Sound",6-261,5:00,7:50,M
+PHYS,130,X62L,"Wave Motion, Optics and Sound",6-261,11:00,1:50,M
+PHYS,130,X63L,"Wave Motion, Optics and Sound",6-261,11:00,1:50,M
+PHYS,144,AS01,Mechanics,6-156,11:00,11:50,MWF
+PHYS,144,X01L,Mechanics,6-298,8:00,10:50,R
+PHYS,144,X02L,Mechanics,6-298,12:30,3:20,R
+PHYS,144,X03L,Mechanics,6-298,4:30,7:20,R
+PHYS,200,AS01,Introduction to Relativity,6-153,10:00,10:50,MWF
+PHYS,208,AS01,Quantum Aspects of Physics,6-258,12:30,1:50,TR
+PHYS,208,X01L,Quantum Aspects of Physics,6-261,4:00,6:50,W
+PHYS,208,X02L,Quantum Aspects of Physics,6-261,4:00,6:50,W
+PHYS,224,AS01,Fluids and Heat,6-252,11:00,12:20,TR
+PHYS,224,X01L,Fluids and Heat,6-261,2:00,4:50,R
+PHYS,261,AS01,Physics of Energy,6-238,9:30,10:50,TR
+PHYS,324,AS01,Origins of Planetary Systems,6-291,9:00,9:50,MWF
+POLS,101,GS01,Introduction to Politics and Government,6-152,11:00,12:20,TR
+POLS,101,GS02,Introduction to Politics and Government,6-132,9:00,9:50,MWF
+POLS,101,GS03,Introduction to Politics and Government,6-214,12:30,1:50,TR
+POLS,101,GS04,Introduction to Politics and Government,6-214,1:00,1:50,MWF
+POLS,101,OP01,Introduction to Politics and Government,6-136,6:00,8:50,T
+POLS,101,OP95,Introduction to Politics and Government,V-MCO,,,
+POLS,200,AS01,Comparative Political Systems,7-184,12:00,12:50,MWF
+POLS,200,AS02,Comparative Political Systems,5-242,11:00,12:20,TR
+POLS,214,AS01,History of Political Thought I,6-348,8:00,9:20,TR
+POLS,214,AS02,History of Political Thought I,5-106,9:00,9:50,MWF
+POLS,224,AS01,Canadian National Government I,6-332,2:00,3:20,TR
+POLS,264,AS01,Introduction to Global Politics I,6-133,12:30,1:50,TR
+POLS,264,AS02,Introduction to Global Politics I,7-126,10:00,10:50,MWF
+POLS,304,AS01,Topics in European Politics,6-258,1:00,1:50,MWF
+POLS,307,AS01,Continental Political Thought,6-332,9:30,10:50,TR
+POLS,324,AS01,Topics in Canadian Politics,6-258,2:00,2:50,MWF
+POLS,375,AS01,Politics of East Asia,7-126,11:00,11:50,MWF
+POLS,399,AS01,Empirical Research Methods in Political Science,5-248,3:30,5:20,T
+POLS,399,X01L,Empirical Research Methods in Political Science,5-248,5:30,6:20,T
+POLS,461,AS01,Topics-International Politics,7-367J,3:00,5:50,M
+POLS,468,AS01,International Organization,7-165,3:30,6:20,R
+POLS,490,AS01,Advanced Study in Political Science,7-367J,3:00,5:50,W
+POLS,498,AS01,Advanced Independent Study,,,,
+POLS,499,AS01,Honours Thesis,,,,
+PSYC,104,GS01,Introductory Psychology I,5-142,9:00,9:50,W
+PSYC,104,GS02,Introductory Psychology I,5-142,8:00,8:50,W
+PSYC,104,GS03,Introductory Psychology I,5-142,12:00,12:50,W
+PSYC,104,GS04,Introductory Psychology I,5-142,1:00,1:50,W
+PSYC,104,GS05,Introductory Psychology I,5-142,3:00,3:50,W
+PSYC,104,GS06,Introductory Psychology I,5-142,4:00,4:50,W
+PSYC,104,GS07,Introductory Psychology I,5-142,9:00,9:50,R
+PSYC,104,GS08,Introductory Psychology I,5-142,11:00,11:50,R
+PSYC,104,GS09,Introductory Psychology I,5-142,12:00,12:50,R
+PSYC,104,GS10,Introductory Psychology I,5-142,2:00,2:50,R
+PSYC,104,GS11,Introductory Psychology I,5-142,3:00,3:50,R
+PSYC,104,GS12,Introductory Psychology I,5-142,9:00,9:50,F
+PSYC,104,GS13,Introductory Psychology I,5-142,8:00,8:50,F
+PSYC,104,GS14,Introductory Psychology I,5-142,12:00,12:50,F
+PSYC,104,GS15,Introductory Psychology I,5-142,1:00,1:50,F
+PSYC,104,OP01,Introductory Psychology I,5-142,6:00,6:50,W
+PSYC,104,OP95,Introductory Psychology I,V-MCO,,,
+PSYC,105,GS01,Introductory Psychology II,5-142,1:00,1:50,M
+PSYC,105,GS02,Introductory Psychology II,5-142,12:00,12:50,M
+PSYC,105,GS03,Introductory Psychology II,5-142,9:00,9:50,T
+PSYC,105,GS04,Introductory Psychology II,5-142,10:00,10:50,T
+PSYC,105,GS05,Introductory Psychology II,5-142,1:00,1:50,T
+PSYC,105,GS06,Introductory Psychology II,5-142,2:00,2:50,T
+PSYC,105,OP01,Introductory Psychology II,5-142,6:00,6:50,T
+PSYC,105,OP95,Introductory Psychology II,V-MCO,,,
+PSYC,212,AS01,Introduction to Research Methods in Psychology,6-334,12:30,1:50,TR
+PSYC,212,AS02,Introduction to Research Methods in Psychology,6-334,11:00,12:20,TR
+PSYC,212,AS03,Introduction to Research Methods in Psychology,6-334,2:00,3:20,TR
+PSYC,212,AS04,Introduction to Research Methods in Psychology,6-334,9:30,10:50,TR
+PSYC,223,AS01,Developmental Psychology,6-133,9:00,9:50,MWF
+PSYC,223,AS02,Developmental Psychology,6-332,3:30,4:50,TR
+PSYC,223,AS03,Developmental Psychology,6-133,8:00,8:50,MWF
+PSYC,223,AS04,Developmental Psychology,6-332,8:00,9:20,TR
+PSYC,223,OP01,Developmental Psychology,6-252,6:00,8:50,W
+PSYC,223,OP95,Developmental Psychology,V-MCO,,,
+PSYC,233,AS01,Personality,6-226,9:30,10:50,TR
+PSYC,233,AS02,Personality,6-291,9:30,10:50,TR
+PSYC,233,AS03,Personality,6-258,8:00,8:50,MWF
+PSYC,233,AS04,Personality,6-133,11:00,12:20,TR
+PSYC,233,OP01,Personality,6-258,6:00,8:50,T
+PSYC,241,AS01,Social Psychology,6-252,12:00,12:50,MWF
+PSYC,241,AS02,Social Psychology,6-258,9:00,9:50,MWF
+PSYC,241,AS03,Social Psychology,6-252,10:00,10:50,MWF
+PSYC,241,AS04,Social Psychology,6-258,8:00,9:20,TR
+PSYC,241,OP01,Social Psychology,6-258,6:00,8:50,M
+PSYC,241,OP95,Social Psychology,V-MCO,,,
+PSYC,258,AS01,Cognitive Psychology,6-232,2:00,3:20,TR
+PSYC,258,AS02,Cognitive Psychology,6-252,4:00,4:50,MWF
+PSYC,258,AS03,Cognitive Psychology,6-258,3:30,4:50,TR
+PSYC,258,OP95,Cognitive Psychology,V-MCO,,,
+PSYC,267,AS01,Perception,6-348,11:00,12:20,TR
+PSYC,267,AS02,Perception,6-291,12:00,12:50,MWF
+PSYC,267,AS03,Perception,6-256,3:30,4:50,TR
+PSYC,267,OP95,Perception,V-MCO,,,
+PSYC,275,AS01,Brain and Behaviour,6-291,11:00,11:50,MWF
+PSYC,275,AS02,Brain and Behaviour,6-256,10:00,10:50,MWF
+PSYC,275,AS03,Brain and Behaviour,6-256,12:30,1:50,TR
+PSYC,275,AS04,Brain and Behaviour,6-258,2:00,3:20,TR
+PSYC,275,OP95,Brain and Behaviour,V-MCO,,,
+PSYC,281,AS01,Principles of Behaviour,6-252,11:00,11:50,MWF
+PSYC,281,AS02,Principles of Behaviour,6-238,9:00,9:50,MWF
+PSYC,281,AS03,Principles of Behaviour,6-153,3:00,3:50,MWF
+PSYC,281,OP95,Principles of Behaviour,V-MCO,,,
+PSYC,301,AS01,History of Psychology,6-232,11:00,11:50,MWF
+PSYC,301,AS02,History of Psychology,6-232,8:00,8:50,MWF
+PSYC,307,AS01,Health Psychology,6-232,12:00,12:50,MWF
+PSYC,312,AS01,Advanced Research Methods,6-334,8:00,9:20,TR
+PSYC,312,X01L,Advanced Research Methods,6-334,4:00,5:50,W
+PSYC,328,AS01,Adult Development and Aging,6-232,3:30,4:50,TR
+PSYC,333,AS01,Advanced Personality,6-252,12:30,1:50,TR
+PSYC,337,AS01,Forensic Psychology,6-252,1:00,1:50,MWF
+PSYC,337,OP95,Forensic Psychology,V-MCO,,,
+PSYC,339,AS01,Abnormal Psychology,6-232,10:00,10:50,MWF
+PSYC,339,AS02,Abnormal Psychology,6-232,9:00,9:50,MWF
+PSYC,355,AS01,Social Cognition,6-256,9:30,10:50,TR
+PSYC,358,AS01,Comparative Cognition,6-252,5:00,6:20,TR
+PSYC,377,AS01,Human Neuropsychology,6-252,2:00,2:50,MWF
+PSYC,385,AS01,Introduction to Applied Behaviour Analysis,6-332,3:00,3:50,MWF
+PSYC,398,AS01,Independent Study,,,,
+PSYC,398,AS02,Independent Study,,,,
+PSYC,398,AS03,Independent Study,,,,
+PSYC,405,AS01,Special Topics in Psychology,6-321,11:00,12:20,MW
+PSYC,405,AS02,Special Topics in Psychology,6-321,9:30,10:50,MW
+PSYC,405,AS03,Special Topics in Psychology,6-334,8:00,9:20,MW
+PSYC,408,AS01,Psychology of Well-being,6-321,9:30,10:50,TR
+PSYC,431,AS01,Psychometrics,6-334,12:30,1:50,MW
+PSYC,435,AS01,Introduction to Clinical Psychology,6-321,2:00,3:20,TR
+PSYC,439,AS01,Psychology Field Placement,V-MCO,,,
+PSYC,439,X01F,Psychology Field Placement,WP-OC,,,
+PSYC,440,AS01,Practice of Teaching in Psychology,6-334,2:00,3:20,M
+PSYC,440,X01P,Practice of Teaching in Psychology,,,,
+PSYC,449,AS01,Topics in Social Psychology,6-321,11:00,12:20,TR
+PSYC,456,AS01,Cognitive Assessment,6-334,4:30,5:50,TR
+PSYC,456,X01L,Cognitive Assessment,6-334,6:00,6:50,T
+PSYC,475,AS01,Comparative Neuroanatomy,6-334,8:00,9:20,MW
+PSYC,498,AS01,Advanced Independent Study,,,,
+PSYC,498,AS02,Advanced Independent Study,,,,
+PSYC,498,AS03,Advanced Independent Study,,,,
+PSYC,498,AS04,Advanced Independent Study,,,,
+PSYC,498,AS05,Advanced Independent Study,,,,
+PSYC,498,AS06,Advanced Independent Study,,,,
+PSYC,498,AS07,Advanced Independent Study,,,,
+PSYC,498,AS08,Advanced Independent Study,,,,
+PSYC,498,AS09,Advanced Independent Study,,,,
+PSYC,498,AS10,Advanced Independent Study,,,,
+PSYC,498,AS11,Advanced Independent Study,,,,
+PSYC,498,AS12,Advanced Independent Study,,,,
+PSYC,498,AS13,Advanced Independent Study,,,,
+PSYC,498,AS14,Advanced Independent Study,,,,
+PSYC,498,AS15,Advanced Independent Study,,,,
+PSYC,499A,AS01,Honours Thesis I,V-MCO,,,
+SCIE,201,AS01,Scientific Process: From Research Questions to Printed Manuscript,5-205,2:00,3:50,M
+SCIE,201,X01S,Scientific Process: From Research Questions to Printed Manuscript,5-205,2:00,3:50,W
+SOCI,100,GS01,Introductory Sociology,6-152,8:00,8:50,MWF
+SOCI,100,GS02,Introductory Sociology,7-284,8:00,9:20,TR
+SOCI,100,GS03,Introductory Sociology,6-132,1:00,1:50,MWF
+SOCI,100,GS04,Introductory Sociology,6-136,9:00,9:50,MWF
+SOCI,100,GS05,Introductory Sociology,6-152,9:30,10:50,TR
+SOCI,100,GS06,Introductory Sociology,6-132,2:00,3:20,TR
+SOCI,100,GS07,Introductory Sociology,6-132,12:00,12:50,MWF
+SOCI,100,GS08,Introductory Sociology,6-136,3:30,4:50,TR
+SOCI,100,GS09,Introductory Sociology,9-103,11:00,12:20,TR
+SOCI,100,GS10,Introductory Sociology,6-132,11:00,11:50,MWF
+SOCI,100,GS11,Introductory Sociology,6-132,10:00,10:50,MWF
+SOCI,100,GS12,Introductory Sociology,7-284,2:00,3:20,TR
+SOCI,100,GS70,Introductory Sociology,6-132,8:00,9:20,TR
+SOCI,100,GS71,Introductory Sociology,9-323,12:30,1:50,WF
+SOCI,100,OP01,Introductory Sociology,6-156,6:00,8:50,W
+SOCI,100,OP02,Introductory Sociology,6-156,6:00,8:50,T
+SOCI,100,OP03,Introductory Sociology,6-156,9:00,11:50,Sat
+SOCI,100,OP95,Introductory Sociology,V-MCO,,,
+SOCI,201,AS01,Canadian Society,6-291,12:30,1:50,TR
+SOCI,224,AS01,Deviance and Conformity,6-256,9:00,9:50,MWF
+SOCI,224,AS02,Deviance and Conformity,6-238,10:00,10:50,MWF
+SOCI,224,OP95,Deviance and Conformity,V-MCO,,,
+SOCI,225,AS01,Criminology,6-256,1:00,1:50,MWF
+SOCI,225,AS02,Criminology,6-332,12:30,1:50,TR
+SOCI,225,AS03,Criminology,6-258,11:00,11:50,MWF
+SOCI,225,AS04,Criminology,6-258,11:00,12:20,TR
+SOCI,225,AS05,Criminology,6-153,11:00,11:50,MWF
+SOCI,225,AS06,Criminology,6-232,9:30,10:50,TR
+SOCI,225,AS70,Criminology,6-232,11:00,12:20,TR
+SOCI,225,OP01,Criminology,6-332,6:00,8:50,R
+SOCI,225,OP95,Criminology,V-MCO,,,
+SOCI,225,PI01,Criminology,6-291,2:00,4:50,R
+SOCI,225,PS01,Criminology,6-133,11:00,1:50,W
+SOCI,232,AS01,Classical Sociological Theory,6-258,12:00,12:50,MWF
+SOCI,232,AS02,Classical Sociological Theory,6-133,9:30,10:50,TR
+SOCI,237,AS01,Media and Society,6-238,11:00,12:20,TR
+SOCI,241,AS01,Social Psychology,6-252,8:00,8:50,MWF
+SOCI,241,AS02,Social Psychology,6-232,8:00,9:20,TR
+SOCI,251,AS01,Population and Society,6-332,6:00,8:50,M
+SOCI,269,AS01,Introductory Sociology of Globalization,6-258,10:00,10:50,MWF
+SOCI,269,AS02,Introductory Sociology of Globalization,6-332,9:00,9:50,MWF
+SOCI,271,AS01,Introduction to the Family,6-252,2:00,3:20,TR
+SOCI,271,OP01,Introduction to the Family,6-332,6:00,8:50,W
+SOCI,290,AS01,Introduction to the Sociology of Health and Illness,6-232,2:00,2:50,MWF
+SOCI,301,AS01,Sociology of Gender,6-291,10:00,10:50,MWF
+SOCI,301,AS02,Sociology of Gender,6-252,9:30,10:50,TR
+SOCI,303,AS01,Contemporary Issues in Criminology,6-332,1:00,1:50,MWF
+SOCI,310,AS01,Introduction to Social Statistics,6-228,9:30,10:50,TR
+SOCI,310,AS02,Introduction to Social Statistics,6-228,2:00,3:20,TR
+SOCI,315,AS01,Social Research Methods,6-228,12:30,1:50,TR
+SOCI,321,AS01,"Youth, Crime and Society",6-332,12:00,12:50,MWF
+SOCI,321,OP01,"Youth, Crime and Society",6-332,6:00,8:50,T
+SOCI,325,AS01,Restorative Justice,6-258,9:30,10:50,TR
+SOCI,327,AS01,The Canadian Criminal Justice System,6-332,2:00,2:50,MWF
+SOCI,329,AS01,Sociology of Law,6-332,11:00,12:20,TR
+SOCI,333,AS01,Contemporary Sociological Theory,6-332,11:00,11:50,MWF
+SOCI,361,AS01,Social Inequality in Canada,6-256,11:00,12:20,TR
+SOCI,368,AS01,Race and Ethnic Relations,7-138,2:00,3:20,TR
+SOCI,377,AS01,"Youth, Culture and Identity",6-238,11:00,11:50,MWF
+SOCI,387,AS01,"Religion, Culture and Society",6-332,10:00,10:50,MWF
+SOCI,402,AS01,Special Topics in Sociology,6-228,3:30,6:20,T
+SOCI,403,AS01,Special Topics in Criminology and Criminal Justice,6-396B,3:30,6:20,R
+SOCI,421,AS01,Sociology of Punishment,6-396B,3:30,6:20,T
+SOCI,424,AS01,"Advanced Topics in Deviance, Normality and Social Control",6-228,3:00,5:50,W
+SOCI,463,AS01,Advanced Topics in Canadian Society,6-396B,3:00,5:50,M
+SOCI,497,AS01,Independent Research Project,,,,
+SOCI,497,AS02,Independent Research Project,,,,
+SOCI,498,AS01,Advanced Independent Study,,,,
+SOCI,498,AS02,Advanced Independent Study,,,,
+SOCI,498,AS03,Advanced Independent Study,,,,
+SOCI,498,AS04,Advanced Independent Study,,,,
+SOCI,499A,AS01,Honours Thesis I,ED-OC,,,
+SPAN,111,AS01,Introductory Spanish I,7-265,"8:00
+ 9:00",9:50,"MW
+ F"
+SPAN,111,AS02,Introductory Spanish I,7-231,2:00,4:20,TR
+SPAN,111,AS03,Introductory Spanish I,"7-227
+ 7-265
+ 7-265","10:00
+ 11:00
+ 10:00","10:50
+ 12:20
+ 10:50","M
+ TR
+ F"
+SPAN,111,AS04,Introductory Spanish I,7-231,3:00,5:20,MW
+SPAN,111,AS05,Introductory Spanish I,"7-265
+ 7-265
+ 7-231",2:00,"2:50
+ 3:20
+ 2:50","M
+ TR
+ F"
+SPAN,111,AS06,Introductory Spanish I,7-227,"1:00
+ 12:30",1:50,"MW
+ TR"
+SPAN,112,AS01,Introductory Spanish II,7-231,8:30,10:50,TR
+SPAN,211,AS01,Intermediate Spanish I,"7-265
+ 7-231
+ 7-231",11:00,"12:50
+ 12:50
+ 11:50","M
+ W
+ F"
+SPAN,211,AS02,Intermediate Spanish I,7-265,1:00,"1:50
+ 2:50","M
+ WF"
+SPAN,216,AS01,Conversation and Composition in Spanish I,7-265,11:00,12:50,WF
+SPAN,315,AS01,Advanced Oral Practice and Composition in Spanish,7-231,11:00,12:20,TR
+STAT,151,AS01,Introduction to Applied Statistics,5-152,9:30,10:50,TR
+STAT,151,AS02,Introduction to Applied Statistics,5-152,1:00,1:50,MWF
+STAT,151,AS03,Introduction to Applied Statistics,5-158,11:00,12:20,TR
+STAT,151,AS04,Introduction to Applied Statistics,5-158,12:00,12:50,MWF
+STAT,151,AS05,Introduction to Applied Statistics,5-152,12:30,1:50,TR
+STAT,151,AS06,Introduction to Applied Statistics,5-152,11:00,11:50,MWF
+STAT,151,AS07,Introduction to Applied Statistics,5-152,10:00,10:50,MWF
+STAT,151,OP60,Introduction to Applied Statistics,5-152,5:00,6:20,MW
+STAT,151,OP61,Introduction to Applied Statistics,5-152,9:00,11:50,Sat
+STAT,151,X01L,Introduction to Applied Statistics,6-345,8:00,9:20,M
+STAT,151,X02L,Introduction to Applied Statistics,6-345,8:00,9:20,W
+STAT,151,X03L,Introduction to Applied Statistics,6-345,8:00,9:20,F
+STAT,151,X04L,Introduction to Applied Statistics,6-345,12:30,1:50,T
+STAT,151,X05L,Introduction to Applied Statistics,6-345,12:30,1:50,R
+STAT,151,X06L,Introduction to Applied Statistics,6-345,3:30,4:50,M
+STAT,151,X07L,Introduction to Applied Statistics,6-345,3:30,4:50,W
+STAT,151,X08L,Introduction to Applied Statistics,6-345,3:30,4:50,F
+STAT,151,X09L,Introduction to Applied Statistics,6-241,3:30,4:50,T
+STAT,151,X10L,Introduction to Applied Statistics,6-241,3:30,4:50,R
+STAT,151,X11L,Introduction to Applied Statistics,6-345,2:00,3:20,T
+STAT,151,X12L,Introduction to Applied Statistics,6-345,2:00,3:20,R
+STAT,151,X13L,Introduction to Applied Statistics,6-345,2:00,3:20,M
+STAT,151,X14L,Introduction to Applied Statistics,6-345,2:00,3:20,W
+STAT,151,X15L,Introduction to Applied Statistics,6-345,2:00,3:20,F
+STAT,151,X16L,Introduction to Applied Statistics,6-345,8:00,9:20,T
+STAT,151,X17L,Introduction to Applied Statistics,6-345,8:00,9:20,R
+STAT,151,X60L,Introduction to Applied Statistics,5-121,6:30,7:50,M
+STAT,151,X61L,Introduction to Applied Statistics,5-121,6:30,7:50,W
+STAT,151,X62L,Introduction to Applied Statistics,5-121,1:00,2:20,Sat
+STAT,151,X63L,Introduction to Applied Statistics,5-121,2:30,3:50,Sat
+STAT,161,AS01,Applied Statistics for the Social Sciences,5-158,9:30,10:50,TR
+STAT,161,X01L,Applied Statistics for the Social Sciences,6-345,11:00,12:20,T
+STAT,161,X02L,Applied Statistics for the Social Sciences,6-345,11:00,12:20,R
+STAT,252,AS01,Applied Statistics II,5-204,8:00,8:50,MWF
+STAT,252,AS02,Applied Statistics II,5-322,8:00,9:20,TR
+STAT,252,X01L,Applied Statistics II,5-121,4:00,5:50,F
+STAT,252,X02L,Applied Statistics II,5-121,12:00,1:50,F
+STAT,265,AS01,Probability Theory,6-242,11:00,12:20,TR
+STAT,265,X01S,Probability Theory,6-153,12:00,12:50,W
+STAT,370,AS01,Applied Time Series Analysis,5-305,10:00,10:50,MWF
+STAT,370,X01L,Applied Time Series Analysis,5-121,2:00,3:50,F
+STAT,371,AS01,Applied Categorical Data Analysis,9-315,11:00,11:50,MWF
+STAT,371,X01L,Applied Categorical Data Analysis,5-248,2:00,3:50,W
+STAT,412,AS01,Stochastic Processes,6-344,3:30,4:50,TR
+STAT,412,X01L,Stochastic Processes,5-122,12:00,1:50,F
+STAT,498,AS01,Advanced Independent Study,,,,
+STAT,498,AS02,Advanced Independent Study,,,,
+STAT,498,AS03,Advanced Independent Study,,,,
+SUST,201,AS01,Introduction to Sustainability,6-133,11:00,1:50,M
+ZOOL,224,AS01,Vertebrate Adaptations and Evolution,5-135,5:00,5:50,MWF
+ZOOL,224,X01L,Vertebrate Adaptations and Evolution,6-143,8:00,10:50,R
+ZOOL,224,X02L,Vertebrate Adaptations and Evolution,6-143,12:30,3:20,R
+ZOOL,241,AS01,Animal Physiology I,5-110,3:00,3:50,MWF
+ZOOL,241,X01S,Animal Physiology I,5-206,4:00,4:50,T
+ZOOL,241,X02S,Animal Physiology I,5-206,5:00,5:50,T
+ZOOL,400,AS01,Aquatic Vertebrates,5-206,11:00,11:50,MWF
+ZOOL,400,X01L,Aquatic Vertebrates,6-143,12:30,3:20,T
+ZOOL,425,AS01,Entomology,5-141,8:00,9:20,TR
+ZOOL,425,X01L,Entomology,6-143,12:00,2:50,F
+ENGG,130,X62L,Engineering Mechanics - Statics,5-251,2:00,3:50,M
+ENGG,130,X63L,Engineering Mechanics - Statics,5-207,2:00,3:50,W

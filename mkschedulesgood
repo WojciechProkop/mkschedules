@@ -1,0 +1,730 @@
+#!/usr/bin/perl
+=TOPCOMMENT
+
+Student Name     : Wojciech Prokop
+Course name      : CMPT220
+Instructor name  : Dr. Nicholas Boers
+Due Date:        : DECEMBER 10th, 2018
+
+
+Program name     : mkschedules
+Program function : Take any .csv file of any name and work with the file contents.
+In particular, remove any entries with missing data, combine multiline data, and
+provide it in a format suitable for LaTeX pdf output. 
+
+Programmers Notes:
+I understand that there is a lot of code duplication that really should have been
+placed in separate subroutines from the get-go. At this point, with the extra
+experience that I have in Perl I think I would be able to refactor the code and
+make it significantly shorter next time I write a similar project.
+
+Acknowledgements :
+USING CHOP
+http://perlmeme.org/howtos/perlfunc/chop_function.html
+
+MAKING HASHES OF ARRAYS:
+https://nnc3.com/mags/Perl3/cookbook/ch11_03.htm
+
+
+=cut
+
+
+
+
+
+use Data::Dumper;
+use File::Basename;
+use Getopt::Std;
+
+#use strict;
+use warnings;
+
+
+my @complete;
+my @fullySplit;
+my @refinedDT; #refined Days and Time
+my @refined;
+
+my ($var1, $var2, $var3, $outEnd, $endTimesFixed, $outStart, $isOneEnd, $isOneStart);
+my $startTimesFixed;
+
+my %hashes = ();
+my @uniqueRooms= ();
+my %seenRooms = ();
+my @uniqueCourses = ();
+my %seenCourses = ();
+my $blockCount = 0;
+
+sub start
+{
+    my $lastLine = "";
+    my $extraInfo ="";
+    my $line;
+    my $oldLine ="";
+    my $pushed;
+    while ($line = <>)
+    {
+	$pushed = 0;
+	chomp $line;
+	$lastLine = $line; #get last line of file
+	if ($line !~ /([A-Z]{4}),(\d{3}?),(\w+),([ \w\-:]+),([\d\-]+),([\d:]+),([\d:]+),([A-Z]+)/
+	    && $line !~ /,,/ && $line =~ /^\s/ && $line !~ m/Number,Section/ )
+	{
+	    $extraInfo .= $line;
+	}
+	else
+	{
+	    if ($line !~/,,/ && $line !~ /\".*\"/ && $line !~/^\s/ && $line !~ m/Number,Section/)
+	    {
+		push ( @refined, $oldLine. "" .$extraInfo);
+		$extraInfo = "";
+		$pushed = 1;
+	    }
+	    if ($line !~ /\"[.]+/ && $line !~/,,/ && $line !~ m/Number,Section/)
+	    {
+		$oldLine = $line;
+	    }
+	}
+	
+	$line =~ /([A-Z]{4}),(\d{3}?),(\w+),([ \w\-:]+),([\d\-]+),([\d:]+),([\d:]+),([A-Z]+)/;    	
+	if (defined $1 && defined $2 && defined $3 && defined $4 && defined $5 && defined $6 && defined $7 && defined $8 && $pushed == 0) 
+	{
+	    push(@refined, $line. "". $extraInfo);
+	}
+    }
+    
+    push (@refined, $oldLine. "" .$extraInfo);
+}
+
+
+sub correctInput
+{
+    my $i;
+    my $matchDays;
+    my $endTimes;
+    my $outDay; my $outStart; my $outEnd;
+#    my $isOneEnd = 0; my $isOneStart = 0;
+ my $combined = "";
+    
+    for ($i = 0; $i <scalar @refined; $i++)
+    {
+	my $line = $refined[$i];
+	$line =~ /(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*)/;
+	if (defined $8)
+	{
+	    my $a = $1; my $b = $2; my $c = $3; my $d = $4; my $e = $5; my $f = $6; my $g = $7; my $h = $8;
+	    $isOneEnd = 0;
+	    $isOneStart = 0;
+	    $combined = "";
+	    $outDay = $8;
+	    $outEnd = $7;
+	    $outStart=$6;
+	    
+	    $matchDays = $outDay =~ s/T/Tu/r;
+	    $matchDays =~ s/R/Th/;
+	    $matchDays =~ s/Sat/Sa/;
+	    $matchDays =~ s/Sun/Su/;	
+	    $matchDays =~ s/"//g;
+	    
+	    pairEndDays($outEnd);
+	    pairStartDays($outStart);
+	    
+	    my $count = () = $e =~/\s/g;
+
+	    if($isOneEnd == 1 && $isOneStart == 1 && $count != 1 )
+	    {
+		if ($c =~ /[^\w\w\d\d]/)
+		{
+		    if ($b =~ /"\w/)
+		    {
+			$a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+			$combined = $startTimesFixed . " - " . $endTimesFixed;
+			push (@refinedDT, $a.",".$e.",".$combined.",".$matchDays);
+		    }
+		    else
+		    {
+			$a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+			$combined = $startTimesFixed . " - " . $endTimesFixed;
+			push (@refinedDT, $a.",".$b.",".$e.",".$combined.",".$matchDays);
+		    }
+		}
+		else
+		{
+		    
+		    if ($b =~ /"\w/ )
+		    {
+			$a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+			$combined = $startTimesFixed . " - " . $endTimesFixed;
+			push (@refinedDT, $a.",".$c.",".$e.",".$combined.",".$matchDays);
+		    }
+		    else
+		    {
+			$a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+			$combined = $startTimesFixed . " - " . $endTimesFixed;
+			push (@refinedDT, $a.",".$b.",".$c.",".$e.",".$combined.",".$matchDays);
+		    }
+		    
+		}
+	    }
+	    if($isOneEnd == 0 || $isOneStart == 0 || $count == 1)
+	    {
+		if ($c =~ /[^\w\w\d\d]/)
+		{
+		    if ($b =~ /"\w/)
+		    {
+			$a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+			push (@refinedDT, $a.",".$e.",".$f.",".$g.",".$matchDays);
+		    }
+		}
+		else
+		{
+		    $a =~ s/"//g; $b =~ s/"//g; $c =~ s/"//g; $d =~ s/"//g; $e =~ s/"//g; $f =~ s/"//g; $g =~ s/"//g;
+		    push (@refinedDT, $a.",".$b.",".$c.",".$e.",".$f.",".$g.",".$matchDays);
+		}
+	    }
+	}
+    }
+}
+
+
+sub pairEndDays
+{
+    my $isDefined = 0;
+    "a" =~ /a/;#reset all fields
+    my $endTime = "@_";
+    my ($subVar1, $subVar2);
+    my ($var1, $var2, $var3) = ("", "", "");
+    $outEnd = $endTime;
+    my $c;
+    $outEnd =~ /(.*) (.*) (.*)/;
+    $c = $3;
+
+    if (defined $c)
+    {
+	$isOneEnd = 0;
+	$var1 = $1;
+	$var2 = $2;
+	$var3 = $3;
+	$isDefined = 1;
+	"a" =~ /a/;
+	
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var2 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var2 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var3 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var3 = $subVar1.":".$subVar2;
+	
+    }
+    
+    "a" =~ /a/;
+    $outEnd =~ /(.*) (.*)/;
+    if (defined $c && $isDefined eq 0)
+    {
+	$isOneEnd = 0;
+	$var1 = $1;
+	$var2 = $2;
+	$isDefined = 1;
+	
+	"a" =~ /a/;
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var2 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var2 = $subVar1.":".$subVar2;
+    }
+    
+    "a" =~ /a/;
+    $outEnd =~ /(.*)/;
+    if ($outEnd !~ /\s/ && defined $1 && $isDefined eq 0)
+    {
+	$isOneEnd = 1;
+	$var1 = $1;
+	$isDefined = 1;
+	"a" =~ /a/;
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+    }
+    
+    $endTimesFixed = $var1. "" .$var2. "" . $var3;
+    $var1 = ""; $var2 = ""; $var3 = "";
+}
+
+
+sub pairStartDays
+{
+    my $isDefined = 0;
+    "a" =~ /a/;
+    my $startTime = "@_";
+    my ($subVar1, $subVar2);
+    my $outStart = $startTime;
+    my $c;
+    my ($var1, $var2, $var3) = ("", "", "");
+    $outStart =~ /(.*) (.*) (.*)/;
+    $c = $3;
+
+    if (defined $c)
+    {
+	$isOneStart = 0;
+	$var1 = $1;
+	$var2 = $2;
+	$var3 = $3;
+	$isDefined = 1;
+	
+	"a" =~ /a/;
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var2 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var2 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var3 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var3 = $subVar1.":".$subVar2;
+    }
+    
+    "a" =~ /a/;
+    $outStart =~ /(.*) (.*)/;
+    if (defined $c && $isDefined eq 0)
+    {
+	$isOneStart = 0;
+	$var1 = $1;
+	$var2 = $2;
+	$isDefined = 1;
+	
+	"a" =~ /a/;
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+	
+	"a" =~/a/;
+	$var2 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var2 = $subVar1.":".$subVar2;
+    }
+    
+    "a" =~ /a/;
+    $outStart =~ /(.*)/;
+    if ($outStart !~ /\s/ && defined $1 && $isDefined eq 0)
+    {
+	$isOneStart = 1;
+	$var1 = $1;
+	$isDefined = 1;
+	"a" =~ /a/;
+	$var1 =~ /(\d+):(\d+)/;
+	$subVar1 = $1;
+	$subVar2 = $2;
+	if ($subVar1 < 8)
+	{
+	    $subVar1 += 12;
+	}
+	$var1 = $subVar1.":".$subVar2;
+    }
+    
+    $startTimesFixed = $var1. "" .$var2. "" . $var3;
+    $var1 = ""; $var2 = ""; $var3 = "";
+}
+
+
+sub multiSplit
+{
+    my $i;
+    for ($i = 0; $i < scalar @refinedDT; $i++)
+    {
+	my $biggestNum = 0;
+	my $countRooms;
+	my $countStart;
+	my $countEnd;
+	my $countDays;
+
+	"a" =~/a/;
+        $refinedDT[$i]=~/(.*),(.*),(.*),(.*),(.*),(.*),(.*)/;
+        my $a = $1; my $b = $2; my $c = $3; my $d = $4; my $e = $5; my $f = $6; my $g = $7;
+	if( defined $d && defined $e && defined $f && defined $g)
+	{
+	    $countRooms = () = $d =~/\s/g;
+	    $biggestNum = $countRooms;
+	    $countStart = () = $e =~/\s/g;
+
+	    if ($countStart > $biggestNum)
+	    {
+		$biggestNum = $countStart;
+	    }
+
+	    $countEnd = () = $f =~/\s/g;
+	    if ($countEnd > $biggestNum)
+	    {
+		$biggestNum = $countEnd;
+	    }
+
+	    $countDays = () = $g =~/\s/g;
+	    if ($countDays > $biggestNum)
+	    {
+		$biggestNum = $countDays;
+	    }
+	}
+
+	if(not defined $e)
+	{
+	    push( @fullySplit, $refinedDT[$i]);
+	}
+
+        my $i;
+        if (defined $g)
+        {
+            if ($countRooms == $countStart && $countRooms == $countEnd && $countRooms == $countDays)
+            {
+                if ($countRooms == 2)
+		{
+		    "a" =~ /a/;
+		    $d =~ /(.*) (.*) (.*)/;
+		    my ($d1,$d2,$d3) = ($1,$2,$3);
+		    "a" =~ /a/;
+
+                    $e =~ /(.*) (.*) (.*)/;
+                    my ($e1,$e2,$e3) = ($1,$2,$3);
+                    "a" =~ /a/;
+		    
+                    $f =~ /(.*) (.*) (.*)/;
+                    my ($f1,$f2,$f3) = ($1,$2,$3);
+                    "a" =~ /a/;
+
+                    $g =~ /(.*) (.*) (.*)/;
+                    my ($g1,$g2,$g3) = ($1,$2,$3);
+		    push (@fullySplit, $a.",".$b.",".$c.",".$d1.",".$e1." - ".$f1.",".$g1);
+		    push (@fullySplit, $a.",".$b.",".$c.",".$d2.",".$e2." - ".$f2.",".$g2);
+		    push (@fullySplit, $a.",".$b.",".$c.",".$d3.",".$e3." - ".$f3.",".$g3);
+		}
+
+		if ($countRooms == 1)
+		{
+                    "a" =~ /a/;
+                    $d =~ /(.*) (.*)/;
+                    my ($d1,$d2) = ($1,$2);
+                    "a" =~ /a/;
+
+                    $e =~ /(.*) (.*)/;
+                    my ($e1,$e2) = ($1,$2);
+                    "a" =~ /a/;
+
+                    $f =~ /(.*) (.*)/;
+                    my ($f1,$f2) = ($1,$2);
+                    "a" =~ /a/;
+
+                    $g =~ /(.*) (.*)/;
+                    my ($g1,$g2) = ($1,$2);
+
+                    push (@fullySplit, $a.",".$b.",".$c.",".$d1.",".$e1." - ".$f1.",".$g1);
+                    push (@fullySplit, $a.",".$b.",".$c.",".$d2.",".$e2." - ".$f2.",".$g2);
+		}
+
+	    }#if countrooms ==countend...
+	    else
+	    {
+		my ($d1, $d2, $d3, $e1, $e2, $e3, $f1, $f2, $f3, $g1, $g2, $g3);
+		if ($countRooms == 2)
+		{
+		    "a" =~ /a/;
+		    $d =~ /(.*) (.*) (.*)/;
+		    ($d1, $d2, $d3) = ($1, $2, $3);
+		}
+		if ($countRooms == 1)
+		{
+		    "a" =~ /a/;
+		    $d =~ /(.*) (.*)/;
+		    ($d1, $d2, $d3) = ($1, $2, $2)
+		}
+		if ($countRooms == 0)
+		{
+		    "a" =~ /a/;
+		    $d =~ /(.*)/;
+		    ($d1, $d2, $d3) = ($1, $1, $1);
+		}
+
+		if ($countStart == 2)
+                {
+                    "a" =~ /a/;
+                    $e =~ /(.*) (.*) (.*)/;
+                    ($e1, $e2, $e3) = ($1, $2, $3);
+                }
+                if ($countStart == 1)
+                {
+                    "a" =~ /a/;
+                    $e =~ /(.*) (.*)/;
+                    ($e1, $e2, $e3) = ($1, $2, $2)
+                }
+                if ($countStart == 0)
+                {
+                    "a" =~ /a/;
+                    $e =~ /(.*)/;
+                    ($e1, $e2, $e3) = ($1, $1, $1);
+                }
+
+                if ($countEnd == 2)
+                {
+                    "a" =~ /a/;
+                    $f =~ /(.*) (.*) (.*)/;
+                    ($f1, $f2, $f3) = ($1, $2, $3);
+                }
+                if ($countEnd == 1)
+                {
+                    "a" =~ /a/;
+                    $f =~ /(.*) (.*)/;
+                    ($f1, $f2, $f3) = ($1, $2, $2);
+                }
+                if ($countEnd == 0)
+                {
+                    "a" =~ /a/;
+                    $f =~ /(.*)/;
+                    ($f1, $f2, $f3) = ($1, $1, $1);
+                }
+
+                if ($countDays == 2)
+                {
+                    "a" =~ /a/;
+                    $g =~ /(.*) (.*) (.*)/;
+                    ($g1, $g2, $g3) = ($1, $2, $3);
+                }
+                if ($countDays == 1)
+                {
+                    "a" =~ /a/;
+                    $g =~ /(.*) (.*)/;
+                    ($g1, $g2, $g3) = ($1, $2, $2)
+                }
+                if ($countDays == 0)
+                {
+                    "a" =~ /a/;
+                    $g =~ /(.*)/;
+                    ($g1, $g2, $g3) = ($1, $1, $1);
+                }
+
+		if ($biggestNum == 2)
+		{
+		    push (@fullySplit, $a.",".$b.",".$c.",".$d1.",".$e1." - ".$f1.",".$g1);
+		    push (@fullySplit, $a.",".$b.",".$c.",".$d2.",".$e2." - ".$f2.",".$g2);
+		    push (@fullySplit,  $a.",".$b.",".$c.",".$d3.",".$e3." - ".$f3.",".$g3);
+		}
+
+		if ($biggestNum == 1)
+		{
+                    push (@fullySplit, $a.",".$b.",".$c.",".$d1.",".$e1." - ".$f1.",".$g1);
+                    push (@fullySplit, $a.",".$b.",".$c.",".$d2.",".$e2." - ".$f2.",".$g2);
+		}
+				
+		
+	    }#close else
+	}#if defined g
+    }
+}
+
+
+sub complete
+{
+    my $i;
+    for ($i = 0; $i < scalar @fullySplit; $i++)
+    {
+	"a" =~ /a/;
+	$fullySplit[$i] =~ /(.*),(.*),(.*),(.*),(.*),(.*)/;
+	my($a, $b, $c, $d, $e, $f) = ($1, $2, $3, $4, $5, $6);
+
+	unless ($seenRooms{$d})
+	{
+	    $seenRooms{$d} = 1;
+	    push (@uniqueRooms, $d);
+	}
+	
+	my $concatenatedCourse = $a."".$b."".$c;
+	unless ($seenCourses{$concatenatedCourse})
+	{
+	    $seenCourses{$concatenatedCourse} = 1;
+	    push (@uniqueRooms, $concatenatedCourse);
+	}
+	
+	$f =~ s/M/M,/;
+	$f =~ s/W/W,/;
+	$f =~ s/F/F,/;
+	$f =~ s/Th/Th,/;
+	$f =~ s/Tu/T,/;
+	$f =~ s/Sa/Sa,/;
+	$f =~ s/Su/Su,/;
+	
+        $blockCount += () = $f =~/,/g;
+
+	chop $f;
+
+	push (@{ $hashes{$d} },"\\booking\{\\bfseries\{\}$a $b ($c){}{$f}{$e}\n");
+    }
+}
+
+sub printOutput
+{
+    my $i;
+    foreach my $string (sort keys %hashes)
+    {
+	print "\\scheduleHeader{$string}\n\n\\begin{schedule}\n";
+	print @{$hashes{$string}};
+	print "\\end{schedule}\n\n\\filbreak\n\n";
+    }
+    exit 0;
+}
+
+sub printStats
+{
+    my $courses = keys %seenCourses;
+    my $size = keys %seenRooms;
+    print "Rooms:   $size\nCourses: $courses\nBlocks:  $blockCount\n";
+    exit 0;
+}
+
+sub generateScript
+{
+    my $filename = $_[0];
+    my $count = 0;
+    
+    open (my $fh, '>', "$filename");
+    
+    foreach my $output (sort keys %hashes)
+    {
+	$count++;
+	if ($count == 1)
+	{
+	    print $fh "#!/bin/bash
+
+pdfseparate -f 1 -l 1 schedules.pdf %d.pdf \\
+  && mv 1.pdf \"$output.pdf\"";
+	}
+	else
+	{
+	    print $fh "
+  && pdfseparate -f $count -l $count schedules.pdf %d.pdf \\
+  && mv $count.pdf \"$output.pdf\"";
+	}
+    } 
+
+    close $fh;
+}
+
+
+sub main
+{
+    my %options;
+    getopts("hso:", \%options);
+
+    if(defined $options{h})
+    {
+	print"$0, for generating room schedules
+
+usage: $0 [options] [csv file]
+
+Options:
+  -h        display help and terminate
+  -s        display statistics and terminate";
+	if (defined $options{o})
+	{
+	    print "\n  -o script  output bash '$options{o}' for splitting the PDF";
+	}
+	if (not defined $options {o})
+	{
+	    print "\n  -o script  output bash 'SCRIPTNAME' for splitting the PDF";
+	}
+
+	exit 0;
+    }
+    if(defined $options{s})
+    {
+	start();
+	correctInput();
+	multiSplit();
+	complete();
+	printStats();
+    }
+    if(defined $options{o})
+    {
+	my $filename = $options{o};
+	start();
+        correctInput();
+        multiSplit();
+        complete();
+	generateScript($filename);
+	printOutput();
+    }
+    else
+    {
+        start();
+        correctInput();
+        multiSplit();
+        complete();
+	printOutput();
+    }
+}
+main();
