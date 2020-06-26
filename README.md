@@ -7,6 +7,6 @@ normally generate LATEX to standard output for typesetting room schedules. Comma
 usage: ./mkschedulesgood [options] [csv file]
 
 Options:
-  -h        display help and terminate
-  -s        display statistics and terminate
-  -o script  output bash 'SCRIPTNAME' for splitting the PDF
+-h        display help and terminate
+-s        display statistics and terminate
+-o script  output bash 'SCRIPTNAME' for splitting the PDF
